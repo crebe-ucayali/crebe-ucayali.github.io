@@ -1322,7 +1322,7 @@
   {
     "id": "LSP-000166",
     "categoria": "alimentos",
-    "palabra": "papa p111 t03",
+    "palabra": "papa",
     "descripcion": "Palma de la mano derecha hacia arriba con los dedos flexionados.",
     "archivo_imagen": "imagenes/alimentos/papa_p111_t03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -6330,7 +6330,7 @@
   {
     "id": "LSP-000800",
     "categoria": "religion",
-    "palabra": "papa p247 t02",
+    "palabra": "papa",
     "descripcion": "1. Colocar en la frente el dorso de la mano derecha extendida. 2. Acercar el dorso de la mano derecha a los labios.",
     "archivo_imagen": "imagenes/religion/papa_p247_t02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -6378,7 +6378,7 @@
   {
     "id": "LSP-000806",
     "categoria": "religion",
-    "palabra": "sacerdote p248 t02",
+    "palabra": "sacerdote",
     "descripcion": "Llevar los dedos pulgar e índice de la mano derecha al cuello, realizando un movimiento de izquierda a derecha.",
     "archivo_imagen": "imagenes/religion/sacerdote_p248_t02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
