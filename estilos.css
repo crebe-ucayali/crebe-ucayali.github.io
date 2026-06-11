@@ -591,3 +591,9 @@ footer a {
 .fuente-tarjeta {
   display: none;
 }
+.logo-crebe {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
