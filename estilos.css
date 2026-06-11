@@ -480,19 +480,72 @@ select:hover {
 
 footer {
   margin-top: 60px;
-  padding: 28px 20px;
+  padding: 46px 20px 24px;
   color: #dfe9ed;
-  text-align: center;
   background: var(--azul-900);
   font-size: 0.91rem;
 }
 
-footer p {
-  margin: 0;
+.footer-contenido {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr 1.1fr 0.8fr;
+  gap: 32px;
+  width: min(1240px, 100%);
+  margin: 0 auto;
+  text-align: left;
 }
 
-footer a {
+.footer-bloque h2 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.footer-bloque p {
+  margin: 0;
+  color: #dfe9ed;
+  line-height: 1.6;
+}
+
+.footer-bloque a {
   color: #bde5da;
+  text-decoration: none;
+}
+
+.footer-bloque a:hover {
+  text-decoration: underline;
+}
+
+.footer-final {
+  width: min(1240px, 100%);
+  margin: 34px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  text-align: center;
+}
+
+.footer-final p {
+  margin: 0;
+  color: #dfe9ed;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .footer-contenido {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-contenido {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  footer {
+    padding: 34px 20px 22px;
+  }
 }
 
 /* Accesibilidad */
