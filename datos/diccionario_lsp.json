@@ -8638,7 +8638,295 @@
     "descripcion": "1. Colocar las manos con el dorso hacia afuera y los dedos índice y medio semiflexionados, a ambos lados de la cabeza, girar las manos desde esa posición (seña de conejo). 2. Desplazar la mano derecha, con los dedos",
     "archivo_imagen": "imagenes/verduras/zanahoria.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
-  }
+  },
+{
+  "id": "LSP-900001",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 01",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_01.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900002",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 02",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_02.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900003",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 03",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_03.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900004",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 04",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_04.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900005",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 05",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_05.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900006",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 06",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_06.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900007",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 07",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_07.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900008",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 08",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_08.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900009",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 09",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_09.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900010",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 10",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_10.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900011",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 11",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_11.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900012",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 12",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_12.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900013",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 13",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_13.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-900014",
+  "categoria": "padre_nuestro",
+  "palabra": "Padre Nuestro - Parte 14",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_14.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910001",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 01",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_01.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910002",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 02",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_02.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910003",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 03",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_03.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910004",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 04",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_04.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910005",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 05",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_05.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910006",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 06",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_06.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910007",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 07",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_07.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910008",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 08",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_08.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910009",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 09",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_09.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910010",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 10",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_10.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-910011",
+  "categoria": "ave_maria",
+  "palabra": "Ave María - Parte 11",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/ave_maria/ave_maria_11.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920001",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 01",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_01.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920002",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 02",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_02.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920003",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 03",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_03.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920004",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 04",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_04.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920005",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 05",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_05.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920006",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 06",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_06.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920007",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 07",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_07.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920008",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 08",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_08.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920009",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 09",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_09.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920010",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 10",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_10.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
+  "id": "LSP-920011",
+  "categoria": "himno_nacional",
+  "palabra": "Himno Nacional - Parte 11",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/himno_nacional/himno_nacional_11.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
 {
   "id": "LSP-920012",
   "categoria": "himno_nacional",
@@ -8646,5 +8934,5 @@
   "descripcion": "",
   "archivo_imagen": "imagenes/himno_nacional/himno_nacional_12.png",
   "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
-  },
+}
 ]
