@@ -39,6 +39,15 @@ function nombreCategoria(categoria) {
 function pluralizar(cantidad) {
   return cantidad === 1 ? "seña encontrada" : "señas encontradas";
 }
+function esCategoriaSecuencial(categoria) {
+  const categoriasSecuenciales = [
+    "padre_nuestro",
+    "ave_maria",
+    "himno_nacional",
+  ];
+
+  return categoriasSecuenciales.includes(normalizar(categoria));
+}
 const ORDEN_NUMEROS = new Map([
   ["cero", 0],
   ["uno", 1],
@@ -176,6 +185,13 @@ if (descripcion) {
 
 function renderizar() {
   elementos.galeria.replaceChildren();
+
+  const categoriaActual = elementos.categoria.value;
+  elementos.galeria.classList.toggle(
+    "galeria-secuencia",
+    esCategoriaSecuencial(categoriaActual),
+  );
+
   const cantidad = estado.resultados.length;
   const limite = Math.min(estado.visibles, cantidad);
   const fragmento = document.createDocumentFragment();
