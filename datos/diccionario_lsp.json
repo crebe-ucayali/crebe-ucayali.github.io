@@ -3506,7 +3506,7 @@
   {
     "id": "LSP-000441",
     "categoria": "naturaleza",
-    "palabra": "fresco p279 t04",
+    "palabra": "fresco",
     "descripcion": "Con ambas manos extendidas frente a la cara realizar movimientos con los dedos de afuera hacia adentro.",
     "archivo_imagen": "imagenes/naturaleza/fresco_p279_t04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -5108,7 +5108,7 @@
     "categoria": "paises_y_ciudades",
     "palabra": "rusia",
     "descripcion": "Con la mano derecha en puño hacer un movimiento hacia la izquierda y hacia abajo.",
-    "archivo_imagen": "imagenes/paises_lugares/rusia.png",
+    "archivo_imagen": "imagenes/paises_y_ciudades/rusia.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
@@ -5762,7 +5762,7 @@
   {
     "id": "LSP-000730",
     "categoria": "pronombres_personales",
-    "palabra": "una p147 t03",
+    "palabra": "una",
     "descripcion": "Seña del número uno, terminar haciendo la letra “A”.",
     "archivo_imagen": "imagenes/pronombres_personales/una_p147_t03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -7170,7 +7170,7 @@
   {
     "id": "LSP-000906",
     "categoria": "senas_de_informatica",
-    "palabra": "subrayado p310 t02",
+    "palabra": "subrayado",
     "descripcion": "1.Configurar “S”. 2. Configurar seña de línea.",
     "archivo_imagen": "imagenes/senas_de_informatica/subrayado_p310_t02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"

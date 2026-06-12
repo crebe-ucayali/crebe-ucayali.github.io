@@ -74,6 +74,14 @@ function crearTarjeta(registro) {
   fragmento.querySelector(".palabra-tarjeta").textContent = registro.palabra;
   fragmento.querySelector(".categoria-tarjeta").textContent =
     nombreCategoria(registro.categoria);
+  const descripcion = registro.descripcion?.trim();
+const descripcionElemento = fragmento.querySelector(".descripcion-tarjeta");
+
+if (descripcion) {
+  descripcionElemento.textContent = descripcion;
+} else {
+  descripcionElemento.hidden = true;
+}
   fragmento.querySelector(".fuente-tarjeta").textContent =
     registro.fuente || "Fuente no especificada";
   tarjeta.setAttribute(
@@ -156,7 +164,7 @@ async function iniciar() {
     elementos.estadoCarga.hidden = false;
     elementos.estadoCarga.classList.add("error");
     elementos.estadoCarga.textContent =
-      "No fue posible cargar el banco. Abre la plataforma mediante un servidor local, como se explica en README_WEB.md.";
+      "No fue posible cargar el banco. Verifica que el archivo datos/diccionario_lsp.json esté disponible y que la plataforma se abra desde GitHub Pages o un servidor local.";
   }
 }
 
