@@ -38,6 +38,8 @@ function nombreCategoria(categoria) {
 
 function pluralizar(cantidad) {
   return cantidad === 1 ? "seña encontrada" : "señas encontradas";
+  function barajarRegistros(registros) {
+  return [...registros].sort(() => Math.random() - 0.5);
 }
 function esCategoriaSecuencial(categoria) {
   const categoriasSecuenciales = [
