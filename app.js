@@ -15,6 +15,7 @@ const elementos = {
   limpiar: document.querySelector("#limpiar"),
   contador: document.querySelector("#contador"),
   mostrando: document.querySelector("#mostrando"),
+  notaSecuencia: document.querySelector("#nota-secuencia"),
   galeria: document.querySelector("#galeria"),
   cargarMas: document.querySelector("#cargar-mas"),
   estadoCarga: document.querySelector("#estado"),
