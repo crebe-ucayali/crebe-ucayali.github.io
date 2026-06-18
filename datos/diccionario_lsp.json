@@ -7435,7 +7435,7 @@
     "id": "LSP-000940",
     "categoria": "verbos",
     "palabra": "abandonar",
-    "descripcion": "",
+    "descripcion": "Colocar los puños de ambas manos frente a frente y realizar un movimiento amplio hacia la derecha y hacia abajo, extendiendo las manos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_153_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7443,7 +7443,7 @@
     "id": "LSP-000941",
     "categoria": "verbos",
     "palabra": "abrazar",
-    "descripcion": "",
+    "descripcion": "Cruzar los antebrazos hacia los hombros con golpes suaves.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_153_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7451,7 +7451,7 @@
     "id": "LSP-000942",
     "categoria": "verbos",
     "palabra": "abrigar",
-    "descripcion": "",
+    "descripcion": "Con las manos en puño, describir un movimiento circular de atrás hacia delante, cruzando los puños.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_153_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7459,7 +7459,7 @@
     "id": "LSP-000943",
     "categoria": "verbos",
     "palabra": "abrir",
-    "descripcion": "",
+    "descripcion": "1. Con ambas manos extendidas, colocar las palmas frente a frente. 2. Realizar la acción de abrir hacia los lados.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_153_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7467,7 +7467,7 @@
     "id": "LSP-000944",
     "categoria": "verbos",
     "palabra": "acariciar",
-    "descripcion": "",
+    "descripcion": "Apoyar la mano derecha en el dorso de la mano izquierda y realizar movimientos suaves.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_153_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7475,23 +7475,23 @@
     "id": "LSP-000945",
     "categoria": "verbos",
     "palabra": "aceptar",
-    "descripcion": "",
+    "descripcion": "Con las manos extendidas y las palmas hacia abajo, llevarlas hacia el pecho uniendo las yemas de los dedos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_153_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
-    "id": "LSP-000946",
-    "categoria": "verbos",
-    "palabra": "arruinar",
-    "descripcion": "",
-    "archivo_imagen": "imagenes/verbos/revisar_pagina_156_tarjeta_01.png",
-    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  "id": "LSP-000946",
+  "categoria": "verbos",
+  "palabra": "arruinar",
+  "descripcion": "1. Colocar el puño de la mano derecha en posición vertical con pulgar hacia arriba. 2. Hacer un giro hacia abajo.",
+  "archivo_imagen": "imagenes/verbos/revisar_pagina_156_tarjeta_01.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000947",
     "categoria": "verbos",
     "palabra": "aterrizar",
-    "descripcion": "",
+    "descripcion": "Configurar la seña de avión con la mano derecha y deslizarla sobre la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_156_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7499,7 +7499,7 @@
     "id": "LSP-000948",
     "categoria": "verbos",
     "palabra": "aumentar",
-    "descripcion": "",
+    "descripcion": "Unir los dedos de la mano derecha y llevarlos en movimiento semicircular hacia la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_156_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7507,7 +7507,7 @@
     "id": "LSP-000949",
     "categoria": "verbos",
     "palabra": "avergonzar",
-    "descripcion": "",
+    "descripcion": "1. Colocar los dedos pulgar e índice de la mano derecha en la barbilla. 2. Desde esa posición, realizar un movimiento hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_156_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7515,7 +7515,7 @@
     "id": "LSP-000950",
     "categoria": "verbos",
     "palabra": "ayudar",
-    "descripcion": "",
+    "descripcion": "Configurar la letra A con la mano derecha sobre la palma de la mano izquierda. Llevar ambas manos con movimiento hacia adelante y hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_156_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7523,7 +7523,7 @@
     "id": "LSP-000951",
     "categoria": "verbos",
     "palabra": "bailar",
-    "descripcion": "",
+    "descripcion": "Realizar acción de bailar.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_156_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7531,7 +7531,7 @@
     "id": "LSP-000952",
     "categoria": "verbos",
     "palabra": "bañar",
-    "descripcion": "",
+    "descripcion": "Colocar ambas manos en puño, llevarlas sobre el pecho y realizar movimientos de arriba hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_157_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7539,15 +7539,23 @@
     "id": "LSP-000953",
     "categoria": "verbos",
     "palabra": "barrer",
-    "descripcion": "",
+    "descripcion": "Realizar con las manos la acción de barrer con una escoba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_157_tarjeta_02.png",
+    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+  },
+  {
+    "id": "LSP-000954",
+    "categoria": "verbos",
+    "palabra": "beber/tomar",
+    "descripcion": "Colocar la mano derecha con los dedos semiflexionados y realizar un movimiento hacia la boca.",
+    "archivo_imagen": "imagenes/verbos/revisar_pagina_157_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000955",
     "categoria": "verbos",
     "palabra": "besar",
-    "descripcion": "",
+    "descripcion": "Llevar hacia la mejilla la mano derecha con los dedos juntos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_157_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7555,7 +7563,7 @@
     "id": "LSP-000956",
     "categoria": "verbos",
     "palabra": "borrar",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha apoyada sobre la palma izquierda, realizar pequeños movimientos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_157_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7563,7 +7571,7 @@
     "id": "LSP-000957",
     "categoria": "verbos",
     "palabra": "botar",
-    "descripcion": "",
+    "descripcion": "1. Colocar la mano derecha en puño. 2. Realizar un movimiento hacia adelante, abriendo la mano.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_157_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7571,7 +7579,7 @@
     "id": "LSP-000958",
     "categoria": "verbos",
     "palabra": "buscar",
-    "descripcion": "",
+    "descripcion": "Con los dedos semiflexionados de la mano derecha a la altura de los ojos, realizar movimientos circulares delante de la cara.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_158_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7579,7 +7587,7 @@
     "id": "LSP-000959",
     "categoria": "verbos",
     "palabra": "caer",
-    "descripcion": "",
+    "descripcion": "1. Colocar sobre la palma izquierda los dedos índice y medio de la mano derecha, formando una V invertida. 2. Desde esa posición, realizar un movimiento giratorio de los dedos sobre la palma izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_158_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7587,7 +7595,7 @@
     "id": "LSP-000960",
     "categoria": "verbos",
     "palabra": "calcular",
-    "descripcion": "",
+    "descripcion": "Unir los índices de ambas manos, superponiéndolos alternadamente con movimiento hacia arriba y hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_158_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7595,7 +7603,7 @@
     "id": "LSP-000961",
     "categoria": "verbos",
     "palabra": "callar",
-    "descripcion": "",
+    "descripcion": "Llevar el índice de la mano derecha a los labios e indicar actitud de silencio.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_158_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7603,7 +7611,7 @@
     "id": "LSP-000962",
     "categoria": "verbos",
     "palabra": "calmar",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha extendida apoyada en el pecho, realizar movimientos suaves de arriba hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_158_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7611,7 +7619,7 @@
     "id": "LSP-000963",
     "categoria": "verbos",
     "palabra": "cambiar",
-    "descripcion": "",
+    "descripcion": "1. Cruzar los puños de ambas manos en posición vertical. 2. Realizar un movimiento circular completo alternando los puños.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_158_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7619,7 +7627,7 @@
     "id": "LSP-000964",
     "categoria": "verbos",
     "palabra": "caminar",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio de la mano derecha, simular la acción de caminar sobre la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_159_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7627,7 +7635,7 @@
     "id": "LSP-000965",
     "categoria": "verbos",
     "palabra": "cantar",
-    "descripcion": "",
+    "descripcion": "Llevar el puño de la mano derecha a nivel de la boca y realizar la acción de cantar.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_159_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7635,7 +7643,7 @@
     "id": "LSP-000966",
     "categoria": "verbos",
     "palabra": "castigar",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha en posición vertical, realizar un movimiento enérgico hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_159_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7643,7 +7651,7 @@
     "id": "LSP-000967",
     "categoria": "verbos",
     "palabra": "cerrar",
-    "descripcion": "",
+    "descripcion": "1. Colocar las manos abiertas, extendidas y separadas. 2. Realizar un movimiento semicircular juntando las palmas.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_159_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7651,7 +7659,7 @@
     "id": "LSP-000968",
     "categoria": "verbos",
     "palabra": "chocar",
-    "descripcion": "",
+    "descripcion": "Con ambos puños, ejecutar la acción de golpear.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_159_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7659,7 +7667,7 @@
     "id": "LSP-000969",
     "categoria": "verbos",
     "palabra": "clavar",
-    "descripcion": "",
+    "descripcion": "Con ambas manos, realizar la acción de clavar un clavo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_159_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7667,7 +7675,7 @@
     "id": "LSP-000970",
     "categoria": "verbos",
     "palabra": "cobrar",
-    "descripcion": "",
+    "descripcion": "Realizar movimientos contactando las yemas de los dedos pulgar, índice y medio de la mano derecha, apoyándola sobre la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_160_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7675,7 +7683,7 @@
     "id": "LSP-000971",
     "categoria": "verbos",
     "palabra": "cocinar",
-    "descripcion": "",
+    "descripcion": "Con el puño de la mano derecha, realizar movimientos circulares sobre la mano izquierda semiflexionada.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_160_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7683,7 +7691,7 @@
     "id": "LSP-000972",
     "categoria": "verbos",
     "palabra": "coger",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha extendida, hacer un movimiento hacia atrás y cerrarla.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_160_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7691,7 +7699,7 @@
     "id": "LSP-000973",
     "categoria": "verbos",
     "palabra": "colgar",
-    "descripcion": "",
+    "descripcion": "Sobre el dedo índice y medio de la mano izquierda, superponer el índice de la mano derecha en forma de gancho.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_160_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7699,7 +7707,7 @@
     "id": "LSP-000974",
     "categoria": "verbos",
     "palabra": "comer",
-    "descripcion": "",
+    "descripcion": "Juntar las yemas de los dedos y llevarlas hacia la boca.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_160_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7707,7 +7715,7 @@
     "id": "LSP-000975",
     "categoria": "verbos",
     "palabra": "comprar",
-    "descripcion": "",
+    "descripcion": "1. Sobre la palma de la mano izquierda extendida, colocar la mano derecha formando puño. 2. Desde esta posición, realizar un movimiento hacia afuera extendiendo la mano.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_160_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7715,7 +7723,7 @@
     "id": "LSP-000976",
     "categoria": "verbos",
     "palabra": "comprender",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice de la mano derecha, hacer un movimiento separándolos a la altura de la sien.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_161_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7723,7 +7731,7 @@
     "id": "LSP-000977",
     "categoria": "verbos",
     "palabra": "confesar",
-    "descripcion": "",
+    "descripcion": "Llevar ambas manos con los dedos juntos a ambos lados de la boca.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_161_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7731,7 +7739,7 @@
     "id": "LSP-000978",
     "categoria": "verbos",
     "palabra": "conocer",
-    "descripcion": "",
+    "descripcion": "Llevar el índice derecho hacia el ojo derecho, con movimientos suaves de adentro hacia afuera.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_161_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7739,7 +7747,7 @@
     "id": "LSP-000979",
     "categoria": "verbos",
     "palabra": "continuar",
-    "descripcion": "",
+    "descripcion": "Juntar los pulgares de ambas manos, con los demás dedos flexionados. Desde esta posición, efectuar un movimiento hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_161_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7747,7 +7755,7 @@
     "id": "LSP-000980",
     "categoria": "verbos",
     "palabra": "copiar",
-    "descripcion": "",
+    "descripcion": "1. Colocar la palma de la mano derecha sobre la izquierda extendida. 2. Deslizar la mano derecha y levantarla hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_161_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7755,7 +7763,7 @@
     "id": "LSP-000981",
     "categoria": "verbos",
     "palabra": "cortar",
-    "descripcion": "",
+    "descripcion": "1. Colocar la mano derecha hacia adelante con los dedos índice y medio extendidos y separados. 2. Adelantar un poco la posición de la mano y juntar ambos dedos simultáneamente.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_161_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7763,7 +7771,7 @@
     "id": "LSP-000982",
     "categoria": "verbos",
     "palabra": "coser",
-    "descripcion": "",
+    "descripcion": "Unir la yema de los dedos índice y pulgar de la mano derecha, apoyarlos sobre la palma de la mano izquierda y realizar un movimiento semicircular hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_162_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7771,7 +7779,7 @@
     "id": "LSP-000983",
     "categoria": "verbos",
     "palabra": "crecer",
-    "descripcion": "",
+    "descripcion": "Colocar la mano derecha extendida en posición horizontal a la altura del ojo y llevarla hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_162_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7779,7 +7787,7 @@
     "id": "LSP-000984",
     "categoria": "verbos",
     "palabra": "creer",
-    "descripcion": "",
+    "descripcion": "1. Llevar el índice de la mano derecha a la frente. 2. Con un movimiento hacia abajo configurar la letra F a la altura del tronco.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_162_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7787,7 +7795,7 @@
     "id": "LSP-000985",
     "categoria": "verbos",
     "palabra": "cruzar",
-    "descripcion": "",
+    "descripcion": "1. Colocar la mano izquierda horizontal y en posición inclinada. 2. Con la mano derecha en igual posición, cruzar por encima de la mano izquierda describiendo un movimiento semicircular.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_162_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7795,7 +7803,7 @@
     "id": "LSP-000986",
     "categoria": "verbos",
     "palabra": "curiosear",
-    "descripcion": "",
+    "descripcion": "Apoyar los dedos índice y medio de la mano derecha semiflexionados debajo de los ojos y hacer un movimiento de izquierda a derecha, sin cambiar el punto de apoyo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_162_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7803,7 +7811,7 @@
     "id": "LSP-000987",
     "categoria": "verbos",
     "palabra": "dar",
-    "descripcion": "",
+    "descripcion": "Dirigir el puño de la mano derecha hacia adelante, abriendo la mano y quedando la palma hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_162_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7811,7 +7819,7 @@
     "id": "LSP-000988",
     "categoria": "verbos",
     "palabra": "decir",
-    "descripcion": "",
+    "descripcion": "Apoyar el índice derecho debajo del labio inferior, con los demás dedos flexionados, y realizar un movimiento semicircular hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_163_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7819,7 +7827,7 @@
     "id": "LSP-000989",
     "categoria": "verbos",
     "palabra": "dejar",
-    "descripcion": "",
+    "descripcion": "Con ambas manos a la altura del pecho, realizar un movimiento contundente hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_163_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7827,7 +7835,7 @@
     "id": "LSP-000990",
     "categoria": "verbos",
     "palabra": "despertar",
-    "descripcion": "",
+    "descripcion": "Llevar a los ojos ambas manos con las yemas del índice y pulgar juntas. Con un movimiento simultáneo abrir los dedos señalados.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_163_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7835,7 +7843,7 @@
     "id": "LSP-000991",
     "categoria": "verbos",
     "palabra": "dibujar",
-    "descripcion": "",
+    "descripcion": "Con el índice extendido de la mano derecha, realizar sobre la mano izquierda un movimiento ondulatorio hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_163_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7843,7 +7851,7 @@
     "id": "LSP-000992",
     "categoria": "verbos",
     "palabra": "dialogar",
-    "descripcion": "",
+    "descripcion": "Con ambos índices extendidos a la altura de los labios, realizar movimientos hacia delante y atrás alternando las manos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_163_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7851,7 +7859,7 @@
     "id": "LSP-000993",
     "categoria": "verbos",
     "palabra": "doler",
-    "descripcion": "",
+    "descripcion": "Colocar la mano derecha con las yemas de los dedos pulgar y medio unidas. Separar los dedos con movimiento simultáneo, acompañando con expresión de dolor.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_163_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7859,7 +7867,7 @@
     "id": "LSP-000994",
     "categoria": "verbos",
     "palabra": "dormir",
-    "descripcion": "",
+    "descripcion": "Apoyar la mejilla derecha sobre las manos unidas.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_164_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7867,7 +7875,7 @@
     "id": "LSP-000995",
     "categoria": "verbos",
     "palabra": "empezar",
-    "descripcion": "",
+    "descripcion": "Colocar el índice de la mano derecha entre los dedos índice y medio de la mano izquierda y hacer un movimiento de rotación.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_164_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7875,7 +7883,7 @@
     "id": "LSP-000996",
     "categoria": "verbos",
     "palabra": "empujar",
-    "descripcion": "",
+    "descripcion": "Con ambas manos extendidas y la palma hacia afuera, en posición vertical, realizar un movimiento hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_164_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7883,7 +7891,7 @@
     "id": "LSP-000997",
     "categoria": "verbos",
     "palabra": "enseñar",
-    "descripcion": "",
+    "descripcion": "Mano izquierda con los dedos flexionados excepto el pulgar en posición horizontal. Con el índice derecho semiflexionado, realizar pequeños movimientos contactando la muñeca derecha con el borde radial de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_164_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7891,7 +7899,7 @@
     "id": "LSP-000998",
     "categoria": "verbos",
     "palabra": "entrar",
-    "descripcion": "",
+    "descripcion": "Colocar la mano izquierda semiflexionada en posición horizontal. La mano derecha pasa por debajo de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_164_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7899,7 +7907,7 @@
     "id": "LSP-000999",
     "categoria": "verbos",
     "palabra": "envolver",
-    "descripcion": "",
+    "descripcion": "Con ambas manos en posición horizontal, realizar un movimiento de rotación completa.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_164_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7907,7 +7915,7 @@
     "id": "LSP-001000",
     "categoria": "verbos",
     "palabra": "equivocar",
-    "descripcion": "",
+    "descripcion": "Con el meñique y pulgar extendidos, los demás dedos flexionados, dirigir la mano hacia la barbilla apoyándose en ella con movimientos suaves.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_165_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7915,7 +7923,7 @@
     "id": "LSP-001001",
     "categoria": "verbos",
     "palabra": "escoger",
-    "descripcion": "",
+    "descripcion": "Con las yemas de los dedos índice y pulgar de la mano derecha separados, dirigirlos hacia adelante y luego unirlos con un movimiento de abajo hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_165_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7923,7 +7931,7 @@
     "id": "LSP-001002",
     "categoria": "verbos",
     "palabra": "escribir",
-    "descripcion": "",
+    "descripcion": "Uniendo las yemas de los dedos índice y pulgar, apoyarlos sobre la palma de la mano izquierda con movimiento lateral de izquierda a derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_165_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7931,7 +7939,7 @@
     "id": "LSP-001003",
     "categoria": "verbos",
     "palabra": "escuchar",
-    "descripcion": "",
+    "descripcion": "Colocar la mano derecha con los dedos semiflexionados en el pabellón de la oreja.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_165_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7939,7 +7947,7 @@
     "id": "LSP-001004",
     "categoria": "verbos",
     "palabra": "esperar",
-    "descripcion": "",
+    "descripcion": "La palma izquierda extendida a la altura del hombro y la mano derecha con la palma hacia arriba, a la altura del pecho, realizar movimientos alternados de los dedos en ambas manos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_165_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7947,15 +7955,15 @@
     "id": "LSP-001005",
     "categoria": "verbos",
     "palabra": "explicar",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y pulgar juntos de ambas manos, hacer pequeños movimientos hacia adelante y hacia atrás sin separarlos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_165_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
-  {
+   {
     "id": "LSP-001006",
     "categoria": "verbos",
     "palabra": "firmar",
-    "descripcion": "",
+    "descripcion": "Uniendo las yemas del índice y pulgar de la mano derecha, sobre la palma de la mano izquierda, hacer un movimiento semicircular hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_166_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7963,7 +7971,7 @@
     "id": "LSP-001007",
     "categoria": "verbos",
     "palabra": "fumar",
-    "descripcion": "",
+    "descripcion": "Dirigir los dedos índice y medio de la mano derecha hacia la boca y realizar movimientos hacia adelante sin separarlos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_166_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7971,7 +7979,7 @@
     "id": "LSP-001008",
     "categoria": "verbos",
     "palabra": "ganar",
-    "descripcion": "",
+    "descripcion": "Con el pulgar de la mano derecha extendido en posición vertical, realizar un movimiento circular hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_166_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7979,7 +7987,7 @@
     "id": "LSP-001009",
     "categoria": "verbos",
     "palabra": "gastar",
-    "descripcion": "",
+    "descripcion": "1. Apoyar la mano derecha con los dedos flexionados, excepto el pulgar, sobre la palma izquierda extendida. 2. Llevar la mano derecha hacia afuera describiendo un semicírculo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_166_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7987,7 +7995,7 @@
     "id": "LSP-001010",
     "categoria": "verbos",
     "palabra": "golpear",
-    "descripcion": "",
+    "descripcion": "Con el puño de la mano derecha, golpear sobre la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_166_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -7995,7 +8003,7 @@
     "id": "LSP-001011",
     "categoria": "verbos",
     "palabra": "guardar",
-    "descripcion": "",
+    "descripcion": "Colocar ambas manos extendidas con las palmas hacia abajo. Pasar la mano derecha por debajo de la palma izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_166_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8003,7 +8011,7 @@
     "id": "LSP-001012",
     "categoria": "verbos",
     "palabra": "gustar",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice de la mano derecha en el cuello, realizar movimientos suaves hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_167_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8011,7 +8019,7 @@
     "id": "LSP-001013",
     "categoria": "verbos",
     "palabra": "intercambiar",
-    "descripcion": "",
+    "descripcion": "1. Con los dedos índices extendidos, los demás dedos flexionados en la palma, ambas manos separadas mostrando el dorso. 2. Realizar movimientos semicirculares cruzando las manos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_167_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8019,7 +8027,7 @@
     "id": "LSP-001014",
     "categoria": "verbos",
     "palabra": "inventar",
-    "descripcion": "",
+    "descripcion": "Colocar a la altura de la frente la mano derecha con el pulgar flexionado sobre la palma y los demás dedos extendidos. Desde esta posición, realizar un movimiento semicircular hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_167_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8027,7 +8035,7 @@
     "id": "LSP-001015",
     "categoria": "verbos",
     "palabra": "jugar",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar y meñique extendidos, los demás dedos flexionados sobre la palma en ambas manos, realizar movimientos alternados subiendo y bajando.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_167_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8035,7 +8043,7 @@
     "id": "LSP-001016",
     "categoria": "verbos",
     "palabra": "lavar",
-    "descripcion": "",
+    "descripcion": "Con los dedos flexionados, excepto los pulgares, efectuar movimientos de fricción con ambas manos a nivel de la segunda y tercera falange de los dedos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_167_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8043,7 +8051,7 @@
     "id": "LSP-001017",
     "categoria": "verbos",
     "palabra": "leer",
-    "descripcion": "",
+    "descripcion": "Colocar las yemas de los dedos índice y medio de la mano derecha separados en la palma de la mano izquierda y realizar movimientos de izquierda a derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_167_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8051,7 +8059,7 @@
     "id": "LSP-001018",
     "categoria": "verbos",
     "palabra": "limpiar",
-    "descripcion": "",
+    "descripcion": "Con los dedos flexionados, excepto el pulgar de la mano derecha, realizar movimientos circulares.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_168_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8059,7 +8067,7 @@
     "id": "LSP-001019",
     "categoria": "verbos",
     "palabra": "llegar",
-    "descripcion": "",
+    "descripcion": "1. Colocar el dedo índice de la mano derecha en posición vertical. 2. Realizar un movimiento hacia la izquierda, quedando el dedo índice hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_168_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8067,7 +8075,7 @@
     "id": "LSP-001020",
     "categoria": "verbos",
     "palabra": "llevar",
-    "descripcion": "",
+    "descripcion": "Palmas de ambas manos dirigidas hacia arriba en posición horizontal. Realizar un movimiento coordinado hacia la derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_168_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8075,7 +8083,7 @@
     "id": "LSP-001021",
     "categoria": "verbos",
     "palabra": "llorar",
-    "descripcion": "",
+    "descripcion": "Con el dedo índice flexionado, contactando con el pulgar extendido, los demás dedos flexionados sobre la palma, a la altura del ojo derecho, realizar un movimiento pequeño hacia abajo en la mejilla. Acompañar con la expresión.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_168_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8083,7 +8091,7 @@
     "id": "LSP-001022",
     "categoria": "verbos",
     "palabra": "llover",
-    "descripcion": "",
+    "descripcion": "Colocar la mano derecha con la palma hacia abajo, los dedos semiflexionados y separados, efectuar movimientos cortos de arriba hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_168_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8091,7 +8099,7 @@
     "id": "LSP-001023",
     "categoria": "verbos",
     "palabra": "mandar",
-    "descripcion": "",
+    "descripcion": "Llevar el dedo índice extendido de la mano derecha hacia el hombro izquierdo y bajarlo enérgicamente hacia la derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_168_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8099,7 +8107,7 @@
     "id": "LSP-001024",
     "categoria": "verbos",
     "palabra": "manejar",
-    "descripcion": "",
+    "descripcion": "Con ambas manos separadas en puño, realizar movimientos circulares.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_169_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8107,7 +8115,7 @@
     "id": "LSP-001025",
     "categoria": "verbos",
     "palabra": "marearse",
-    "descripcion": "",
+    "descripcion": "Llevar el índice de la mano derecha hacia la frente con pequeño movimiento circular.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_169_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8115,7 +8123,7 @@
     "id": "LSP-001026",
     "categoria": "verbos",
     "palabra": "medir",
-    "descripcion": "",
+    "descripcion": "Unir las yemas de los dedos índice y pulgar de ambas manos, los otros dedos flexionados sobre la palma, y separar las manos hacia los lados.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_169_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8123,7 +8131,7 @@
     "id": "LSP-001027",
     "categoria": "verbos",
     "palabra": "memorizar",
-    "descripcion": "",
+    "descripcion": "Llevar el pulgar de la mano derecha hacia la sien derecha y ejecutar un movimiento semicircular.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_169_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8131,7 +8139,7 @@
     "id": "LSP-001028",
     "categoria": "verbos",
     "palabra": "montar",
-    "descripcion": "",
+    "descripcion": "Superponer los dedos medio e índice extendidos y separados de la mano derecha sobre los dedos índice, medio, anular y meñique de la mano izquierda extendida.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_169_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8139,7 +8147,7 @@
     "id": "LSP-001029",
     "categoria": "verbos",
     "palabra": "morder",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha semiflexionada, coger una porción del borde radial de la mano derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_169_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8147,7 +8155,7 @@
     "id": "LSP-001030",
     "categoria": "verbos",
     "palabra": "morir",
-    "descripcion": "",
+    "descripcion": "1. Ambas manos en posición horizontal, mano derecha mostrando la palma y la izquierda el dorso. 2. Girar ambas manos a la altura de las muñecas, invirtiendo la posición descrita.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_170_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8155,7 +8163,7 @@
     "id": "LSP-001031",
     "categoria": "verbos",
     "palabra": "multiplicar",
-    "descripcion": "",
+    "descripcion": "Cruzar ambos dedos índices formando una X.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_170_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8163,7 +8171,7 @@
     "id": "LSP-001032",
     "categoria": "verbos",
     "palabra": "nacer",
-    "descripcion": "",
+    "descripcion": "Con ambas manos en posición vertical y paralelas a la altura del vientre, realizar un movimiento pequeño hacia abajo y hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_170_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8171,7 +8179,7 @@
     "id": "LSP-001033",
     "categoria": "verbos",
     "palabra": "necesitar",
-    "descripcion": "",
+    "descripcion": "Con el dedo índice semiflexionado, los demás dedos flexionados sobre la palma, ejecutar un rápido movimiento hacia adelante a nivel de la muñeca.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_170_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8179,7 +8187,7 @@
     "id": "LSP-001034",
     "categoria": "verbos",
     "palabra": "obedecer",
-    "descripcion": "",
+    "descripcion": "1. Llevar a la frente las dos manos con los dedos juntos. 2. Bajar ambas manos con movimiento simultáneo, quedando las palmas hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_170_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8187,15 +8195,15 @@
     "id": "LSP-001035",
     "categoria": "verbos",
     "palabra": "obligar",
-    "descripcion": "",
+    "descripcion": "Colocar ambas manos, una con los dedos flexionados excepto el pulgar. Ejecutar con fuerza un movimiento hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_170_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
-  {
+   {
     "id": "LSP-001036",
     "categoria": "verbos",
     "palabra": "perseguir",
-    "descripcion": "",
+    "descripcion": "Con ambas manos con dedos flexionados excepto el pulgar que va extendido, la mano izquierda delante de la derecha, avanzar coordinadamente hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_171_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8203,7 +8211,7 @@
     "id": "LSP-001037",
     "categoria": "verbos",
     "palabra": "perdonar",
-    "descripcion": "",
+    "descripcion": "Los dedos índice, medio, anular y meñique de la mano derecha, haciendo contacto con los mismos dedos de la izquierda a nivel de las yemas, realizan movimientos suaves hacia la derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_171_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8211,7 +8219,7 @@
     "id": "LSP-001038",
     "categoria": "verbos",
     "palabra": "pintar",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha extendida en posición vertical, con la palma hacia afuera, realizar movimientos hacia abajo y hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_171_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8219,7 +8227,7 @@
     "id": "LSP-001039",
     "categoria": "verbos",
     "palabra": "planchar",
-    "descripcion": "",
+    "descripcion": "Con los dedos flexionados de la mano derecha, excepto el pulgar, sobre la palma de la mano izquierda, realizar movimientos de izquierda a derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_171_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8227,7 +8235,7 @@
     "id": "LSP-001040",
     "categoria": "verbos",
     "palabra": "practicar",
-    "descripcion": "",
+    "descripcion": "Frotar el dedo índice izquierdo extendido en posición horizontal, con los dedos flexionados de la mano derecha, excepto el pulgar, con movimientos de izquierda a derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_171_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8235,7 +8243,7 @@
     "id": "LSP-001041",
     "categoria": "verbos",
     "palabra": "querer",
-    "descripcion": "",
+    "descripcion": "Colocar los brazos extendidos hacia adelante con las palmas hacia arriba y los dedos semiflexionados. Realizar un movimiento hacia el tronco flexionando ambos brazos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_171_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8243,7 +8251,7 @@
     "id": "LSP-001042",
     "categoria": "verbos",
     "palabra": "observar",
-    "descripcion": "",
+    "descripcion": "Colocar los dedos índice y medio a la altura de los ojos y efectuar un movimiento hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_172_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8251,7 +8259,7 @@
     "id": "LSP-001043",
     "categoria": "verbos",
     "palabra": "olvidar",
-    "descripcion": "",
+    "descripcion": "Apoyando las yemas de los dedos de la mano derecha sobre la frente, realizar un movimiento de izquierda a derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_172_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8259,7 +8267,7 @@
     "id": "LSP-001044",
     "categoria": "verbos",
     "palabra": "operar",
-    "descripcion": "",
+    "descripcion": "Apoyar el pulgar de la mano derecha sobre la palma de la mano izquierda y realizar un movimiento perpendicular de arriba hacia abajo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_172_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8267,7 +8275,7 @@
     "id": "LSP-001045",
     "categoria": "verbos",
     "palabra": "ordenar",
-    "descripcion": "",
+    "descripcion": "Con las palmas paralelas y en posición vertical, realizar movimientos de izquierda a derecha.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_172_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8275,7 +8283,7 @@
     "id": "LSP-001046",
     "categoria": "verbos",
     "palabra": "pensar",
-    "descripcion": "",
+    "descripcion": "Apoyar el dedo índice en la frente con pequeños movimientos circulares.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_172_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8283,7 +8291,7 @@
     "id": "LSP-001047",
     "categoria": "verbos",
     "palabra": "perder",
-    "descripcion": "",
+    "descripcion": "Tiene dos acepciones. Seña A: llevar el índice de la mano derecha al cuello y realizar un movimiento enérgico hacia abajo, quedando la mano extendida. Seña B: con la cara palmar de las manos hacia arriba y uniendo la yema de los dedos, realizar un movimiento hacia abajo, soltando los dedos y separándolos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_172_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8291,7 +8299,7 @@
     "id": "LSP-001048",
     "categoria": "verbos",
     "palabra": "quitar",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha extendida con la palma hacia abajo y en posición horizontal, realizar un movimiento enérgico hacia arriba cerrando la mano.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_173_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8299,7 +8307,7 @@
     "id": "LSP-001049",
     "categoria": "verbos",
     "palabra": "recordar",
-    "descripcion": "",
+    "descripcion": "1. Apoyar el dedo pulgar de la mano derecha a la altura de la sien, los demás dedos flexionados sobre la palma. 2. Con un movimiento recto, llevar la yema del pulgar derecho sobre la uña del pulgar de la mano izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_173_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8307,7 +8315,7 @@
     "id": "LSP-001050",
     "categoria": "verbos",
     "palabra": "resbalar",
-    "descripcion": "",
+    "descripcion": "Sobre la palma extendida de la mano izquierda, deslizar en dirección a los dedos la cara dorsal de la mano derecha, cuyos dedos índice y medio están extendidos, mientras los demás dedos se encuentran flexionados.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_173_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8315,7 +8323,7 @@
     "id": "LSP-001051",
     "categoria": "verbos",
     "palabra": "respetar",
-    "descripcion": "",
+    "descripcion": "1. Cruzar los dedos índice y medio de ambas manos y llevarlos a la altura de la sien. 2. Desde esa posición, bajar ambas manos hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_173_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8323,7 +8331,7 @@
     "id": "LSP-001052",
     "categoria": "verbos",
     "palabra": "respirar",
-    "descripcion": "",
+    "descripcion": "Colocar la mano derecha extendida delante de las fosas nasales y hacer un movimiento hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_173_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8331,7 +8339,7 @@
     "id": "LSP-001053",
     "categoria": "verbos",
     "palabra": "rezar",
-    "descripcion": "",
+    "descripcion": "Con ambas manos juntas, efectuar un movimiento suave de adentro hacia afuera.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_173_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8339,7 +8347,7 @@
     "id": "LSP-001054",
     "categoria": "verbos",
     "palabra": "robar",
-    "descripcion": "",
+    "descripcion": "Configurar la letra R con la mano derecha y realizar un movimiento semicircular hacia la izquierda.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_174_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8347,7 +8355,7 @@
     "id": "LSP-001055",
     "categoria": "verbos",
     "palabra": "romper",
-    "descripcion": "",
+    "descripcion": "1. Unir los puños de ambas manos en posición horizontal. 2. Separarlos girando las muñecas con movimiento hacia los lados.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_174_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8355,7 +8363,7 @@
     "id": "LSP-001056",
     "categoria": "verbos",
     "palabra": "saber",
-    "descripcion": "",
+    "descripcion": "Llevar la palma de la mano derecha hacia la cabeza con pequeños movimientos hacia afuera.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_174_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8363,7 +8371,7 @@
     "id": "LSP-001057",
     "categoria": "verbos",
     "palabra": "salir",
-    "descripcion": "",
+    "descripcion": "1. Colocar la mano derecha debajo de la palma izquierda. 2. Sacar la mano derecha con movimiento enérgico hacia atrás.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_174_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8371,7 +8379,7 @@
     "id": "LSP-001058",
     "categoria": "verbos",
     "palabra": "saltar",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio de la mano derecha sobre la palma de la mano izquierda, realizar movimientos de salto de abajo hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_174_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8379,7 +8387,7 @@
     "id": "LSP-001059",
     "categoria": "verbos",
     "palabra": "saludar",
-    "descripcion": "",
+    "descripcion": "Llevar hacia el lado derecho de la frente la mano con cuatro dedos extendidos y el pulgar flexionado hacia la palma. Ejecutar un movimiento hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_174_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8387,7 +8395,7 @@
     "id": "LSP-001060",
     "categoria": "verbos",
     "palabra": "sentarse",
-    "descripcion": "",
+    "descripcion": "Superponer los dedos índice y medio de la mano derecha sobre los mismos dedos de la mano izquierda, con un pequeño movimiento al hacer contacto.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_175_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8395,7 +8403,7 @@
     "id": "LSP-001061",
     "categoria": "verbos",
     "palabra": "sentir",
-    "descripcion": "",
+    "descripcion": "Llevar el dedo medio de la mano derecha a la altura del pecho, los demás dedos extendidos y separados, y realizar movimiento de adentro hacia afuera.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_175_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8403,7 +8411,7 @@
     "id": "LSP-001062",
     "categoria": "verbos",
     "palabra": "separar",
-    "descripcion": "",
+    "descripcion": "A. Colocar ambas manos con los dedos semiflexionados frente a frente y realizar un movimiento de separación de ambas. B. Colocar los dedos de ambas manos hacia abajo y separarlos con un movimiento.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_175_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8411,7 +8419,7 @@
     "id": "LSP-001063",
     "categoria": "verbos",
     "palabra": "servir",
-    "descripcion": "",
+    "descripcion": "Con las palmas de ambas manos hacia arriba, ejecutar movimientos alternados hacia adelante y hacia atrás.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_175_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8419,7 +8427,7 @@
     "id": "LSP-001064",
     "categoria": "verbos",
     "palabra": "significar",
-    "descripcion": "",
+    "descripcion": "Apoyar los dedos índice y medio invertidos sobre la palma de la mano izquierda y realizar un movimiento giratorio completo.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_175_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8427,7 +8435,7 @@
     "id": "LSP-001065",
     "categoria": "verbos",
     "palabra": "sonreír",
-    "descripcion": "",
+    "descripcion": "Llevar el dedo índice al lado derecho del labio superior y hacer un ligero movimiento hacia la derecha, acompañando con la expresión.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_175_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8435,7 +8443,7 @@
     "id": "LSP-001066",
     "categoria": "verbos",
     "palabra": "soñar",
-    "descripcion": "",
+    "descripcion": "Apoyar el dedo índice de la mano derecha en la frente y realizar un movimiento ondulatorio hacia adelante.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_176_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8443,7 +8451,7 @@
     "id": "LSP-001067",
     "categoria": "verbos",
     "palabra": "subir",
-    "descripcion": "",
+    "descripcion": "Colocar sobre el dorso de la mano izquierda los dedos índice y medio de la mano derecha, y recorrer con movimientos hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_176_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8451,7 +8459,7 @@
     "id": "LSP-001068",
     "categoria": "verbos",
     "palabra": "sufrir",
-    "descripcion": "",
+    "descripcion": "Con los pulgares extendidos de ambas manos a la altura del corazón, realizar movimientos pequeños, acompañados de expresión de pena.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_176_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8459,7 +8467,7 @@
     "id": "LSP-001069",
     "categoria": "verbos",
     "palabra": "telefonear",
-    "descripcion": "",
+    "descripcion": "Colocar el dedo pulgar de la mano derecha en la oreja y el meñique a la altura de los labios.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_176_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8467,7 +8475,7 @@
     "id": "LSP-001070",
     "categoria": "verbos",
     "palabra": "terminar",
-    "descripcion": "",
+    "descripcion": "Cruzar las manos extendidas en posición horizontal con las palmas hacia abajo y separarlas hacia los lados.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_176_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8475,7 +8483,7 @@
     "id": "LSP-001071",
     "categoria": "verbos",
     "palabra": "tirar",
-    "descripcion": "",
+    "descripcion": "Con el puño de la mano derecha en posición vertical, realizar un movimiento enérgico hacia adelante extendiendo la mano.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_176_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8483,7 +8491,7 @@
     "id": "LSP-001072",
     "categoria": "verbos",
     "palabra": "visitar",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio extendidos y separados de ambas manos, con el dorso hacia afuera, realizar movimientos independientes circulares hacia afuera.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_177_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8491,7 +8499,7 @@
     "id": "LSP-001073",
     "categoria": "verbos",
     "palabra": "vivir",
-    "descripcion": "",
+    "descripcion": "Colocar los dedos flexionados de ambas manos, excepto el pulgar, a la altura del pecho. Desde esta posición, realizar un movimiento simultáneo de ambas manos hacia arriba.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_177_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8499,7 +8507,7 @@
     "id": "LSP-001074",
     "categoria": "verbos",
     "palabra": "volar",
-    "descripcion": "",
+    "descripcion": "Ambos brazos flexionados a la altura del codo, con las palmas hacia abajo, realizar movimiento de aletear con ambas manos.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_177_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -8507,7 +8515,7 @@
     "id": "LSP-001075",
     "categoria": "verbos",
     "palabra": "votar",
-    "descripcion": "",
+    "descripcion": "Introducir los dedos índice, medio, anular y meñique de la mano derecha dentro de la mano izquierda semiflexionada.",
     "archivo_imagen": "imagenes/verbos/revisar_pagina_177_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
