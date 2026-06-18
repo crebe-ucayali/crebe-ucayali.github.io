@@ -2051,7 +2051,7 @@
     "id": "LSP-000257",
     "categoria": "animales",
     "palabra": "gusano",
-    "descripcion": "",
+    "descripcion": "Apoyar el índice semiflexionado de la mano derecha, sobre el dorso de la mano izquierda, con movimiento de avance hacia el antebrazo",
     "archivo_imagen": "imagenes/animales/revisar_pagina_201_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2091,7 +2091,7 @@
     "id": "LSP-000262",
     "categoria": "animales",
     "palabra": "mariposa",
-    "descripcion": "",
+    "descripcion": "Cruzar las manos con las palmas hacia adentro entrelazando los pulgare, efectuar movimiendos con los dedos",
     "archivo_imagen": "imagenes/animales/revisar_pagina_202_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2147,7 +2147,7 @@
     "id": "LSP-000269",
     "categoria": "animales",
     "palabra": "pavo",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice a la altura de la nariz, realizar un movimiento hacia abajo",
     "archivo_imagen": "imagenes/animales/revisar_pagina_203_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3250,7 +3250,7 @@
   {
     "id": "LSP-000408",
     "categoria": "juguetes_juegos_deportes",
-    "palabra": "arbitro",
+    "palabra": "Árbitro",
     "descripcion": "Colocar los dedos índice y medio juntos en la boca simulando tocar el silbato.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/arbitro.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -3258,7 +3258,7 @@
   {
     "id": "LSP-000409",
     "categoria": "juguetes_juegos_deportes",
-    "palabra": "capitan",
+    "palabra": "capitán",
     "descripcion": "Colocar los dedos índice, medio y anular de la mano derecha sobre el brazo izquierdo.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/capitan.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -3299,7 +3299,7 @@
     "id": "LSP-000414",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "avión",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar, índice y meñique extendidos, describir un movimiento semicircular hacia arriba.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_207_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3307,7 +3307,7 @@
     "id": "LSP-000415",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "muñeca",
-    "descripcion": "",
+    "descripcion": "1.Señalar la nariz con el índice. 2.Configurar la seña de bebé.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_207_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3315,7 +3315,7 @@
     "id": "LSP-000416",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "trompo",
-    "descripcion": "",
+    "descripcion": "1.Acción de enrollar la pita en el trompo. 2.Lanzar y recibir en la palma de la mano.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_207_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3323,7 +3323,7 @@
     "id": "LSP-000417",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "tren",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio extendidos de la mano derecha, realizar movimientos circulares hacia adelante.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_207_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3331,7 +3331,7 @@
     "id": "LSP-000418",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "tambor",
-    "descripcion": "",
+    "descripcion": "Acción de tocar el tambor con ambas manos.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_207_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3339,7 +3339,7 @@
     "id": "LSP-000419",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "soga",
-    "descripcion": "",
+    "descripcion": "Acción de saltar la soga.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_207_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3347,7 +3347,7 @@
     "id": "LSP-000420",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "soldado",
-    "descripcion": "",
+    "descripcion": "Acción de empuñar el rifle.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_208_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3355,7 +3355,7 @@
     "id": "LSP-000421",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "dados",
-    "descripcion": "",
+    "descripcion": "Acción de lanzar un dado.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_208_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3363,7 +3363,7 @@
     "id": "LSP-000422",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "cubo",
-    "descripcion": "",
+    "descripcion": "Acción de colocar un cubo sobre otro utilizando ambas manos.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_208_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3371,7 +3371,7 @@
     "id": "LSP-000423",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "yases",
-    "descripcion": "",
+    "descripcion": "1.Acción de lanzar la pelota. 2.Acción de recoger los yases.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_208_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3379,7 +3379,7 @@
     "id": "LSP-000424",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "pistola",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice extendidos y separados, dirigidos hacia adelante, hacer pequeños movimientos con el índice.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_208_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3387,7 +3387,7 @@
     "id": "LSP-000425",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "pelota",
-    "descripcion": "",
+    "descripcion": "Con ambas manos diseñar la forma de la pelota.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_208_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3395,7 +3395,7 @@
     "id": "LSP-000426",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "voleybol",
-    "descripcion": "",
+    "descripcion": "Ademán de jugar la pelota con las palmas extendidas de ambas manos.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_210_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3403,7 +3403,7 @@
     "id": "LSP-000427",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "tenis",
-    "descripcion": "",
+    "descripcion": "Acción de coger la raqueta y golpear con ella la pelota.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_210_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3411,7 +3411,7 @@
     "id": "LSP-000428",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "ciclismo",
-    "descripcion": "",
+    "descripcion": "Con ambas manos en puño realizar movimientos circulares.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_210_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3419,7 +3419,7 @@
     "id": "LSP-000429",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "atletismo",
-    "descripcion": "",
+    "descripcion": "Diseñar con el cuerpo la postura de inicio de la carrera.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_210_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3427,7 +3427,7 @@
     "id": "LSP-000430",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "motociclismo",
-    "descripcion": "",
+    "descripcion": "Con las manos en puño realizar a la altura de las muñecas movimientos hacia atrás y hacia adelante.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_210_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3435,7 +3435,7 @@
     "id": "LSP-000431",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "pesca",
-    "descripcion": "",
+    "descripcion": "Colocar las manos con los dedos flexionados excepto el pulgar, la mano derecha detrás de la izquierda y realizar acción de lanzar hacia adelante con movimiento de ambas manos.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_210_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3443,7 +3443,7 @@
     "id": "LSP-000432",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "boxeo",
-    "descripcion": "",
+    "descripcion": "Colocar los puños cerrados con movimientos alternados de adelante hacia atrás.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_211_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3451,7 +3451,7 @@
     "id": "LSP-000433",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "ajedrez",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice hacer movimientos simulando coger las fichas.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_211_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3459,7 +3459,7 @@
     "id": "LSP-000434",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "automovilismo",
-    "descripcion": "",
+    "descripcion": "Con ambas manos realizar la acción de mover el timón del auto.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_211_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3467,7 +3467,7 @@
     "id": "LSP-000435",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "básquet",
-    "descripcion": "",
+    "descripcion": "1.Con la mano derecha extendida, hacer movimientos hacia abajo. 2.Simular lanzar la pelota a la canasta.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_211_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -3475,7 +3475,7 @@
     "id": "LSP-000436",
     "categoria": "juguetes_juegos_deportes",
     "palabra": "ping pong",
-    "descripcion": "",
+    "descripcion": "Acción de jugar con la raqueta lanzando la pelota, con movimientos a nivel de la muñeca.",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_211_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4883,7 +4883,7 @@
     "id": "LSP-000615",
     "categoria": "paises_y_ciudades",
     "palabra": "san juan de lurigancho",
-    "descripcion": "",
+    "descripcion": "1.Configurar la letra S con la mano derecha. 2.Superponer la mano derecha sobre la izquierda, ambas con los dedos extendidos y el pulgar flexionado sobre la palma. Invertir esa posición colocando la mano izquierda sobre la derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_233_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4891,7 +4891,7 @@
     "id": "LSP-000616",
     "categoria": "paises_y_ciudades",
     "palabra": "san luis",
-    "descripcion": "",
+    "descripcion": "1.Colocar las manos abiertas a ambos lados de la cabeza. 2.Llevarlas a la altura del cuello uniendo las yemas.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_233_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4899,7 +4899,7 @@
     "id": "LSP-000617",
     "categoria": "paises_y_ciudades",
     "palabra": "san martín de porres",
-    "descripcion": "",
+    "descripcion": "1.Configurar seña de color negro. 2.Simular acción de barrer.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_233_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4907,7 +4907,7 @@
     "id": "LSP-000618",
     "categoria": "paises_y_ciudades",
     "palabra": "san miguel",
-    "descripcion": "",
+    "descripcion": "Colocar el pulgar de la mano derecha dentro de puño de la mano izquierda, ejecutar el movimiento de bandera.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_233_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4915,7 +4915,7 @@
     "id": "LSP-000619",
     "categoria": "paises_y_ciudades",
     "palabra": "surco",
-    "descripcion": "",
+    "descripcion": "Configurar la letra S y acompañar con movimiento de derecha a izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_233_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4923,7 +4923,7 @@
     "id": "LSP-000620",
     "categoria": "paises_y_ciudades",
     "palabra": "villa el salvador",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha configurar las letras V y S.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_233_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4931,7 +4931,7 @@
     "id": "LSP-000621",
     "categoria": "instituciones_y_lugares",
     "palabra": "aeropuerto",
-    "descripcion": "",
+    "descripcion": "Seña de avión sobre la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4939,7 +4939,7 @@
     "id": "LSP-000622",
     "categoria": "instituciones_y_lugares",
     "palabra": "avenida",
-    "descripcion": "",
+    "descripcion": "Configurar seña de calle.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4947,7 +4947,7 @@
     "id": "LSP-000623",
     "categoria": "instituciones_y_lugares",
     "palabra": "casa",
-    "descripcion": "",
+    "descripcion": "Unir las yemas de los dedos de ambas manos.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4955,7 +4955,7 @@
     "id": "LSP-000624",
     "categoria": "instituciones_y_lugares",
     "palabra": "comisaría",
-    "descripcion": "",
+    "descripcion": "1.Colocar a la altura de la sien la mano derecha con el pulgar flexionado, los demás dedos extendidos y la cara palmar hacia fuera. 2.Ejecutar seña de casa.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4963,7 +4963,7 @@
     "id": "LSP-000625",
     "categoria": "instituciones_y_lugares",
     "palabra": "cárcel",
-    "descripcion": "",
+    "descripcion": "Cruzar ambas manos con los dedos extendidos y separados, y el pulgar flexionado, en contacto con el dorso de la derecha.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4971,7 +4971,7 @@
     "id": "LSP-000626",
     "categoria": "instituciones_y_lugares",
     "palabra": "cementerio",
-    "descripcion": "",
+    "descripcion": "1.Seña de muerto.2. Llevar la mano derecha con los dedos extendidos debajo de la mano izquierda, contactando el dorso con la palma de la mano izquierda.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_234_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4979,7 +4979,7 @@
     "id": "LSP-000627",
     "categoria": "instituciones_y_lugares",
     "palabra": "fábrica",
-    "descripcion": "",
+    "descripcion": "Entrelazar los dedos índice, medio, anular y meñique de ambas manos hacia adentro y realizar un movimiento de arriba hacia abajo.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4987,7 +4987,7 @@
     "id": "LSP-000628",
     "categoria": "instituciones_y_lugares",
     "palabra": "hospital",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio de la mano derecha dibujar una cruz sobre el brazo izquierdo.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4995,7 +4995,7 @@
     "id": "LSP-000629",
     "categoria": "instituciones_y_lugares",
     "palabra": "iglesia",
-    "descripcion": "",
+    "descripcion": "Configurar la letra I con la mano derecha apoyándola sobre el puño de la mano izquierda con suaves golpes.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5003,7 +5003,7 @@
     "id": "LSP-000630",
     "categoria": "instituciones_y_lugares",
     "palabra": "ministerio de educación",
-    "descripcion": "",
+    "descripcion": "1.Llevar la mano derecha configurando la letra M desde el hombro izquierdo hacia el lado derecho del tronco.2. Configurar la seña de libro.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5011,7 +5011,7 @@
     "id": "LSP-000631",
     "categoria": "instituciones_y_lugares",
     "palabra": "ministerio de trabajo",
-    "descripcion": "",
+    "descripcion": "1.Llevar la mano derecha configurando la letra M desde el hombro izquierdo hacia el lado derecho del tronco. 2.Configurar la seña de trabajo.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5019,15 +5019,15 @@
     "id": "LSP-000632",
     "categoria": "instituciones_y_lugares",
     "palabra": "municipalidad",
-    "descripcion": "",
+    "descripcion": "Con el dedo pulgar extendido de la mano derecha, realizar pequeños movimientos en el lado derecho del tronco.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_235_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000633",
     "categoria": "instituciones_y_lugares",
-    "palabra": "cina",
-    "descripcion": "",
+    "palabra": "cine",
+    "descripcion": "1. Colocar la mano derecha en puño, apoyada en la palma de la mano izquierda en posición vertical. 2. Desplazar la mano hacia delante, extendiendo los dedos.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5035,7 +5035,7 @@
     "id": "LSP-000634",
     "categoria": "instituciones_y_lugares",
     "palabra": "circo",
-    "descripcion": "",
+    "descripcion": "1. Seña de payaso. 2. Unir los índices y meñiques de ambas manos, los demás dedos flexionados con movimiento hacia abajo.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5043,7 +5043,7 @@
     "id": "LSP-000635",
     "categoria": "instituciones_y_lugares",
     "palabra": "colegio",
-    "descripcion": "",
+    "descripcion": "Configurar la seña de libro y describir en esa posición un movimiento circular.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5051,15 +5051,15 @@
     "id": "LSP-000636",
     "categoria": "instituciones_y_lugares",
     "palabra": "correos",
-    "descripcion": "",
+    "descripcion": "1. Configurar la seña de casa. 2. Llevar el pulgar derecho a los labios y con un movimiento apoyarlo sobre la palma izquierda.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000637",
     "categoria": "instituciones_y_lugares",
-    "palabra": "edificios",
-    "descripcion": "",
+    "palabra": "edificio",
+    "descripcion": "1. Apoyar la palma de la mano derecha sobre el dorso de la mano izquierda, realizando un movimiento de superposición y alternando las manos. 2. Levantar las dos manos con las palmas frente a frente.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5067,15 +5067,15 @@
     "id": "LSP-000638",
     "categoria": "instituciones_y_lugares",
     "palabra": "estadio",
-    "descripcion": "",
+    "descripcion": "Configurar la letra “E” con ambas manos juntas, con la cara palmar hacia afuera. Hacer un movimiento circular hacia adelante, separando y uniendo las manos, mostrando la cara dorsal de las manos.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_236_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
-  {
+   {
     "id": "LSP-000639",
     "categoria": "instituciones_y_lugares",
     "palabra": "país",
-    "descripcion": "",
+    "descripcion": "Colocar la mano derecha configurando la letra “P” a la altura de la parte exterior del antebrazo flexionado, realizando un movimiento circular.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5083,7 +5083,7 @@
     "id": "LSP-000640",
     "categoria": "instituciones_y_lugares",
     "palabra": "restaurant",
-    "descripcion": "",
+    "descripcion": "1. Colocar en el lado derecho de la boca la mano con los dedos índice y medio superpuestos. 2. Girar a nivel de la muñeca y llevar la mano hacia el lado izquierdo de la boca.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5091,7 +5091,7 @@
     "id": "LSP-000641",
     "categoria": "instituciones_y_lugares",
     "palabra": "tienda",
-    "descripcion": "",
+    "descripcion": "1. Configurar la seña de casa. 2. Configurar la seña del verbo vender.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -5099,7 +5099,7 @@
     "id": "LSP-000642",
     "categoria": "instituciones_y_lugares",
     "palabra": "universidad",
-    "descripcion": "",
+    "descripcion": "Configurar la letra “U” con la mano derecha y llevarla hacia el lado izquierdo del tronco.",
     "archivo_imagen": "imagenes/instituciones_y_lugares/revisar_pagina_237_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
