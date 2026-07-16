@@ -24,14 +24,6 @@
     "etiquetas": "materiales educativos accesibles rutinas visuales pictogramas apoyos fichas generador braille silabas lectura facil alto contraste guias docentes familias plantillas"
   },
   {
-    "titulo": "Juegos Interactivos Accesibles",
-    "modulo": "JIA",
-    "tipo": "Módulo",
-    "descripcion": "Juegos digitales para atención, memoria, asociación, comprensión, participación y aprendizaje.",
-    "url": "https://crebe-ucayali.github.io/juegos-interactivos-accesibles/",
-    "etiquetas": "juegos interactivos accesibles adivina seña braille memoria visual pareja secuencia actividades ludicas niveles instrucciones"
-  },
-  {
     "titulo": "Noti Inclusivos",
     "modulo": "NI",
     "tipo": "Módulo",
@@ -150,21 +142,5 @@
     "descripcion": "Apoyos visuales y pictogramas para comunicación, comprensión y accesibilidad cognitiva.",
     "url": "https://crebe-ucayali.github.io/materiales-educativos-accesibles/",
     "etiquetas": "pictogramas apoyos visuales arasaac comunicacion accesibilidad cognitiva"
-  },
-  {
-    "titulo": "Adivina la seña",
-    "modulo": "JIA",
-    "tipo": "Juego del módulo",
-    "descripcion": "Juego interactivo para reconocer señas y asociarlas con palabras.",
-    "url": "https://crebe-ucayali.github.io/juegos-interactivos-accesibles/",
-    "etiquetas": "adivina seña juego lengua señas niveles reconocimiento"
-  },
-  {
-    "titulo": "Lecturas Inclusivas",
-    "modulo": "LI",
-    "tipo": "Blog educativo",
-    "descripcion": "Artículos, orientaciones y lecturas sobre inclusión, accesibilidad y atención a la diversidad.",
-    "url": "https://crebe-ucayali.github.io/lecturas-inclusivas/",
-    "etiquetas": "lecturas inclusivas blog articulos orientaciones inclusion accesibilidad diversidad"
   }
 ]

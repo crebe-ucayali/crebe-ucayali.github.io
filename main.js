@@ -289,7 +289,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".tarjetas",
       titulo: "Módulos del ecosistema",
-      texto: "En esta sección se agrupan los módulos principales: capacitaciones, banco digital, materiales, juegos, noticias y repositorio accesible. Cada tarjeta abre un espacio con recursos específicos."
+      texto: "En esta sección se agrupan los módulos principales: capacitaciones, banco digital, materiales, noticias y repositorio accesible. Cada tarjeta abre un espacio con recursos específicos."
     },
     {
       selector: ".accesos-complementarios-weebly",
