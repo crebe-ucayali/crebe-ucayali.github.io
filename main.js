@@ -279,7 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       selector: ".campo-busqueda-modulos",
       titulo: "Búsqueda de recursos",
-      texto: "El buscador permite ubicar módulos, recursos o temas específicos. También se pueden usar las sugerencias rápidas para encontrar materiales, juegos, braille, señas, noticias o contacto."
+      texto: "El buscador permite ubicar módulos, recursos o temas específicos. También se pueden usar las sugerencias rápidas para encontrar materiales, braille, señas, noticias o contacto."
     },
     {
       selector: ".controles-accesibilidad",
