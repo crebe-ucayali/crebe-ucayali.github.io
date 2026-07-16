@@ -1,0 +1,46 @@
+name: Centrar fila inferior
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'activar-centrado.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  centrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Centrar NI y RA sin cambiar dimensiones
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('estilos.css')
+          css = path.read_text(encoding='utf-8')
+          marker = '/* Centrado equilibrado de NI y RA */'
+          block = '''
+
+/* Centrado equilibrado de NI y RA */
+@media (min-width:901px){
+  .tarjetas > .noti,
+  .tarjetas > .repositorio{
+    position:relative;
+    left:calc(50% + 11px);
+  }
+}
+'''
+          if marker not in css:
+              css = css.rstrip() + block + '\n'
+          path.write_text(css, encoding='utf-8')
+          PY
+
+          rm -f activar-centrado.txt .github/workflows/centrar-fila-inferior.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add estilos.css activar-centrado.txt .github/workflows/centrar-fila-inferior.yml
+          git commit -m "Centrar NI y RA manteniendo sus dimensiones"
+          git push
