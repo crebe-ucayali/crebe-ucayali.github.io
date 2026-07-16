@@ -1,4 +1,4 @@
-name: Retirar módulos JIA y LI
+name: Completar retiro de JIA y LI
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Retirar tarjetas y referencias
+      - name: Limpiar referencias residuales
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -22,50 +22,23 @@ jobs:
 
           index_path = Path('index.html')
           html = index_path.read_text(encoding='utf-8')
-
-          html = re.sub(
-              r'<a class="tarjeta juegos"[^>]*>.*?</a>\s*',
-              '', html, flags=re.S
-          )
-          html = re.sub(
-              r'<a class="tarjeta lecturas"[^>]*>.*?</a>\s*',
-              '', html, flags=re.S
-          )
-
-          html = re.sub(
-              r'(<article class="impacto-tarjeta"(?: aria-hidden="true")?>\s*<strong>)6(</strong>\s*<h3>Módulos digitales articulados en EVA</h3>)',
-              r'\g<1>5\g<2>', html
-          )
-          html = html.replace(
-              'CAP, BDA, MEA, JIA, NI y RA integrados como rutas de acceso al ecosistema educativo accesible.',
-              'CAP, BDA, MEA, NI y RA integrados como rutas de acceso al ecosistema educativo accesible.'
-          )
+          html = html.replace('Ejemplo: materiales, juegos, braille, noticias', 'Ejemplo: materiales, braille, noticias, contacto')
+          html = re.sub(r'\s*<button type="button" class="sugerencia-busqueda" data-consulta="juegos">juegos</button>', '', html)
           index_path.write_text(html, encoding='utf-8')
 
           busqueda_path = Path('busqueda.json')
           datos = json.loads(busqueda_path.read_text(encoding='utf-8'))
-          datos = [
-              item for item in datos
-              if item.get('modulo') not in {'JIA', 'LI'}
-              and 'juegos-interactivos-accesibles' not in item.get('url', '')
-              and 'lecturas-inclusivas' not in item.get('url', '')
-          ]
-          busqueda_path.write_text(
-              json.dumps(datos, ensure_ascii=False, indent=2) + '\n',
-              encoding='utf-8'
-          )
+          datos = [item for item in datos if item.get('modulo') not in {'JIA', 'LI'}]
+          busqueda_path.write_text(json.dumps(datos, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
           main_path = Path('main.js')
           js = main_path.read_text(encoding='utf-8')
-          js = js.replace(
-              'En esta sección se agrupan los módulos principales: capacitaciones, banco digital, materiales, juegos, noticias y repositorio accesible.',
-              'En esta sección se agrupan los módulos principales: capacitaciones, banco digital, materiales, noticias y repositorio accesible.'
-          )
+          js = js.replace('materiales, juegos, braille, señas, noticias o contacto', 'materiales, braille, señas, noticias o contacto')
           main_path.write_text(js, encoding='utf-8')
           PY
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html busqueda.json main.js
-          git commit -m "Retirar JIA y LI de la página principal"
+          git commit -m "Completar retiro de referencias a JIA y LI"
           git push
