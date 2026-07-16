@@ -1,0 +1,36 @@
+name: Corregir accesos pendientes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/corregir-accesos.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  corregir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Corregir accesos
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t archivos < <(find . -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' -o -name '*.md' -o -name '*.txt' -o -name '*.json' -o -name '*.xml' \) -not -path './.git/*' -not -path './.github/workflows/corregir-accesos.yml')
+          sed -i \
+            -e 's#https://crebe-ucayali.netlify.app/#https://crebe-ucayali.github.io/#g' \
+            -e 's#https://crebe-ucayali.netlify.app#https://crebe-ucayali.github.io/#g' \
+            -e 's#gabriel-lsp#crebe-ucayali#g' \
+            -e 's#/accesos-complementarios/contacto.html#/accesos-complementarios/paginas/contacto.html#g' \
+            "${archivos[@]}"
+          git rm .github/workflows/corregir-accesos.yml
+      - name: Guardar cambios
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Corregir accesos pendientes en Inicio'
+          git push
