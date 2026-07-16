@@ -1,0 +1,50 @@
+name: Versionar recursos CSS y JS
+
+on:
+  push:
+    paths:
+      - ".github/workflows/versionar-recursos.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  versionar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Incorporar versión en CSS y JS
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          ruta = Path("index.html")
+          contenido = ruta.read_text(encoding="utf-8")
+          contenido_nuevo = contenido.replace(
+              'href="estilos.css"',
+              'href="estilos.css?v=20260716"',
+              1,
+          ).replace(
+              'src="main.js"',
+              'src="main.js?v=20260716"',
+              1,
+          )
+
+          if contenido_nuevo == contenido:
+              raise SystemExit("No se encontraron las referencias esperadas en index.html")
+
+          ruta.write_text(contenido_nuevo, encoding="utf-8")
+          PY
+
+      - name: Retirar flujo temporal
+        run: rm -f .github/workflows/versionar-recursos.yml
+
+      - name: Guardar modificación
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html .github/workflows/versionar-recursos.yml
+          git commit -m "Incorporar versión en archivos CSS y JS"
+          git push
