@@ -13,6 +13,16 @@
     "eva-escala-grises",
     "eva-reducir-movimiento"
   ];
+  const CLAVES_ANTERIORES = [
+    "evaTextoNivel",
+    "evaTextoGrande",
+    "evaContraste",
+    "evaFuenteLegible",
+    "evaEspaciadoAmplio",
+    "evaEnlacesSubrayados",
+    "evaEscalaGrises",
+    "evaMovimientoReducido"
+  ];
 
   const leerPreferencias = () => {
     try {
@@ -69,6 +79,17 @@
     });
 
     if (modificadas) guardarPreferencias(preferencias);
+    CLAVES_ANTERIORES.forEach((clave) => localStorage.removeItem(clave));
+    document.body?.classList.remove(
+      "texto-grande",
+      "texto-muy-grande",
+      "alto-contraste",
+      "escala-grises",
+      "fuente-legible",
+      "espaciado-amplio",
+      "enlaces-resaltados",
+      "movimiento-reducido"
+    );
     aplicarPreferencias(preferencias);
   };
 
@@ -164,6 +185,7 @@
   cargarHerramientaCentral();
 
   document.addEventListener("DOMContentLoaded", () => {
+    migrarPreferenciasAnteriores();
     configurarAtajos();
     actualizarAtajos();
   });
