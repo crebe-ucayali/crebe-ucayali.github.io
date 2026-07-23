@@ -133,20 +133,33 @@ body.escala-grises{
   filter:grayscale(1);
 }
 
+/* Verdana presenta formas más amplias y una altura de letra mayor que Arial.
+   Se aplica a toda la interfaz para que el cambio sea perceptible y uniforme. */
 body.fuente-legible,
-body.fuente-legible button,
+body.fuente-legible *:not(code):not(pre):not(kbd):not(samp){
+  font-family:Verdana,Tahoma,Arial,sans-serif !important;
+}
+
+body.fuente-legible{
+  letter-spacing:.012em;
+  word-spacing:.025em;
+}
+
+body.fuente-legible p,
+body.fuente-legible li,
+body.fuente-legible label,
 body.fuente-legible input,
 body.fuente-legible textarea,
 body.fuente-legible select{
-  font-family:Arial,Helvetica,sans-serif !important;
+  line-height:1.7;
 }
 
 body.fuente-legible h1,
 body.fuente-legible h2,
 body.fuente-legible h3,
 body.fuente-legible h4{
-  font-family:Arial,Helvetica,sans-serif !important;
   letter-spacing:0 !important;
+  line-height:1.2;
 }
 
 body.espaciado-amplio{
