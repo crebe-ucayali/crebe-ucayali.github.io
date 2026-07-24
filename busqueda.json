@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "Buscador unificado de EVA",
+    "modulo": "EVA",
+    "tipo": "Herramienta",
+    "descripcion": "Buscador accesible que reúne los catálogos de los módulos, recursos y servicios del Ecosistema Virtual Accesible.",
+    "url": "https://crebe-ucayali.github.io/buscar/",
+    "etiquetas": "buscar buscador busqueda catalogo recursos eva modulos accesible avanzado"
+  },
+  {
     "titulo": "Capacitaciones CREBE",
     "modulo": "CAP",
     "tipo": "Módulo",
