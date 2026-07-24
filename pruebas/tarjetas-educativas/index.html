@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prueba de tarjetas educativas | EVA</title>
+  <meta name="description" content="Demostración accesible de tarjetas educativas para el Ecosistema Virtual Accesible.">
+  <link rel="stylesheet" href="estilos.css?v=1">
+</head>
+<body>
+  <a class="saltar" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <header class="cabecera">
+    <div class="cabecera-interior">
+      <a class="marca" href="../../">
+        <strong>EVA</strong>
+        <span>Ecosistema Virtual Accesible</span>
+      </a>
+      <a class="volver" href="../../">Volver a INICIO</a>
+    </div>
+  </header>
+
+  <main id="contenido-principal" class="contenedor">
+    <section class="presentacion" aria-labelledby="titulo-pagina">
+      <p class="etiqueta">Ruta experimental</p>
+      <h1 id="titulo-pagina">Tarjetas educativas accesibles</h1>
+      <p>
+        Esta demostración permite estudiar un concepto, descubrir su respuesta y avanzar entre tarjetas.
+        Puede utilizarse con teclado, lector de pantalla, celular o computadora.
+      </p>
+    </section>
+
+    <section class="panel" aria-labelledby="titulo-actividad">
+      <div class="panel-encabezado">
+        <div>
+          <p id="progreso" class="progreso" aria-live="polite">Tarjeta 1 de 6</p>
+          <h2 id="titulo-actividad">Práctica de accesibilidad e inclusión</h2>
+        </div>
+        <label class="selector">
+          Tema
+          <select id="selector-tema">
+            <option value="todos">Todos</option>
+            <option value="braille">Braille</option>
+            <option value="accesibilidad">Accesibilidad</option>
+            <option value="inclusion">Inclusión educativa</option>
+          </select>
+        </label>
+      </div>
+
+      <article id="tarjeta" class="tarjeta" tabindex="0" aria-labelledby="pregunta" aria-describedby="instruccion-tarjeta">
+        <span id="categoria" class="categoria">Braille</span>
+        <p id="instruccion-tarjeta" class="instruccion">Lea la pregunta y active “Mostrar respuesta”.</p>
+        <h3 id="pregunta">¿Cuántos puntos conforman la celda Braille?</h3>
+        <div id="respuesta" class="respuesta" hidden>
+          <p class="respuesta-etiqueta">Respuesta</p>
+          <p id="texto-respuesta">La celda Braille está formada por seis puntos organizados en dos columnas de tres.</p>
+        </div>
+      </article>
+
+      <p id="estado" class="estado" role="status" aria-live="polite">Pregunta lista.</p>
+
+      <div class="acciones" aria-label="Controles de las tarjetas">
+        <button id="anterior" type="button">Anterior</button>
+        <button id="mostrar" type="button" class="principal" aria-expanded="false" aria-controls="respuesta">Mostrar respuesta</button>
+        <button id="siguiente" type="button">Siguiente</button>
+      </div>
+
+      <div class="acciones-secundarias">
+        <button id="aleatoria" type="button">Tarjeta aleatoria</button>
+        <button id="reiniciar" type="button">Reiniciar actividad</button>
+      </div>
+
+      <details class="ayuda">
+        <summary>Cómo usar esta prueba</summary>
+        <ul>
+          <li>Use los botones Anterior y Siguiente para recorrer las tarjetas.</li>
+          <li>Presione la barra espaciadora sobre la tarjeta para mostrar u ocultar la respuesta.</li>
+          <li>Use las flechas izquierda y derecha para cambiar de tarjeta.</li>
+          <li>Seleccione un tema para practicar solamente una categoría.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section class="explicacion" aria-labelledby="titulo-aplicacion">
+      <h2 id="titulo-aplicacion">¿Cómo podría aplicarse en EVA?</h2>
+      <div class="usos">
+        <article>
+          <h3>BDA</h3>
+          <p>Reconocimiento de letras Braille, signos, conceptos teóricos y vocabulario de Lengua de Señas Peruana.</p>
+        </article>
+        <article>
+          <h3>MEA</h3>
+          <p>Tarjetas de emociones, normas, rutinas, pictogramas, secuencias y apoyos visuales.</p>
+        </article>
+        <article>
+          <h3>CAP</h3>
+          <p>Repaso de contenidos, preguntas de capacitación y comprobación rápida del aprendizaje.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Demostración experimental de EVA. No forma parte todavía de los módulos oficiales.</p>
+  </footer>
+
+  <script src="app.js?v=1"></script>
+  <script src="https://crebe-ucayali.github.io/accesos-complementarios/accesibilidad/accesibilidad.js?v=10"></script>
+</body>
+</html>
