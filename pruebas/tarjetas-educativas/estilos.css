@@ -121,7 +121,74 @@ legend{padding:0 8px;font-weight:800;color:var(--marca-oscura)}
 .usos .fase-completa{border:2px solid #39734d;background:#f0fff4}
 footer{padding:24px 16px;background:#082f49;color:#fff;text-align:center}
 
-@media(max-width:900px){.formulario-cuadricula.tres-columnas,.filtros-banco{grid-template-columns:repeat(2,minmax(0,1fr))}.casilla-filtro{align-self:end}}
-@media(max-width:760px){.cabecera-interior,.panel-encabezado,.seccion-encabezado{align-items:stretch;flex-direction:column}.cabecera-interior{padding:18px 0}.selector{min-width:0}.formulario-cuadricula,.formulario-cuadricula.tres-columnas,.filtros-banco,.lista-personales,.usos{grid-template-columns:1fr}.acciones button,.acciones-formulario button{flex:1 1 150px}.seccion-encabezado>button{align-self:flex-start}.control-imagen{grid-template-columns:1fr}.miniatura-formulario img{height:220px}.plantilla-visual .tarjeta-imagen{width:calc(100% + 32px);margin-left:-16px;margin-right:-16px}}
-@media(max-width:480px){.contenedor{width:min(100% - 20px,1100px);padding-top:28px}.panel,.explicacion{border-radius:18px}.tarjeta{padding:22px 16px;border-radius:16px}fieldset{padding:14px}.atajos-seccion{display:grid}.atajos-seccion a{justify-content:center}.imagen-guardada{margin-inline:-20px}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto !important;animation-duration:.01ms !important;transition-duration:.01ms !important}}
+/* Fase 3: voz, impresión, respaldo y secuencias */
+.controles-voz{margin-top:24px;background:#fbfefd}
+.acciones-voz{display:flex;align-items:end;gap:12px;flex-wrap:wrap}
+.acciones-voz label{display:grid;gap:6px;min-width:150px}
+.acciones-voz select{min-width:150px}
+.ayuda-breve{margin:.7rem 0 0;color:var(--secundario);font-size:.92rem}
+
+.herramientas-cuadricula{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.herramienta{display:grid;align-content:start;gap:14px;padding:20px;border:2px solid var(--borde);border-radius:18px;background:var(--suave)}
+.herramienta h3{margin:0;color:var(--marca-oscura)}
+.herramienta label{display:grid;gap:6px}
+.herramienta button{justify-self:start}
+
+.formulario-secuencia{display:grid;gap:18px}
+.formulario-secuencia>label{display:grid;gap:6px}
+.selector-tarjetas-secuencia{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.opcion-secuencia{display:flex;align-items:flex-start;gap:10px;padding:12px;border:2px solid var(--borde);border-radius:12px;background:#fff;font-weight:700}
+.opcion-secuencia input{width:22px;min-height:22px;margin:2px 0 0;flex:0 0 auto}
+.opcion-secuencia span{min-width:0;overflow-wrap:anywhere}
+.opcion-secuencia small{display:block;color:var(--secundario);font-weight:400}
+.separador-seccion{height:1px;background:var(--borde);margin:30px 0}
+
+.lista-secuencias{display:grid;gap:18px}
+.secuencia-guardada{padding:20px;border:2px solid var(--borde);border-radius:18px;background:var(--suave)}
+.secuencia-guardada h4{margin:0 0 6px;font-size:1.15rem}
+.secuencia-resumen{margin:0 0 14px;color:var(--secundario)}
+.pasos-secuencia{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.paso-secuencia{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;padding:10px;border:1px solid var(--borde);border-radius:10px;background:#fff}
+.numero-paso{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--marca);color:#fff;font-weight:800}
+.paso-secuencia strong{overflow-wrap:anywhere}
+.acciones-orden{display:flex;gap:6px}
+.acciones-orden button{min-height:38px;padding:5px 10px}
+.acciones-secuencia{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.acciones-secuencia button{min-height:42px;padding:7px 12px}
+
+.visor-secuencia{margin-top:28px;padding-top:28px;border-top:3px solid var(--marca)}
+.visor-secuencia .tarjeta{margin-top:12px}
+.zona-impresion{display:none}
+
+@media(max-width:900px){
+  .formulario-cuadricula.tres-columnas,.filtros-banco{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .casilla-filtro{align-self:end}
+  .herramientas-cuadricula{grid-template-columns:1fr}
+}
+@media(max-width:760px){
+  .cabecera-interior,.panel-encabezado,.seccion-encabezado{align-items:stretch;flex-direction:column}
+  .cabecera-interior{padding:18px 0}
+  .selector{min-width:0}
+  .formulario-cuadricula,.formulario-cuadricula.tres-columnas,.filtros-banco,.lista-personales,.usos,.selector-tarjetas-secuencia{grid-template-columns:1fr}
+  .acciones button,.acciones-formulario button,.acciones-voz button{flex:1 1 150px}
+  .seccion-encabezado>button{align-self:flex-start}
+  .control-imagen{grid-template-columns:1fr}
+  .miniatura-formulario img{height:220px}
+  .plantilla-visual .tarjeta-imagen{width:calc(100% + 32px);margin-left:-16px;margin-right:-16px}
+  .acciones-voz{align-items:stretch}
+  .acciones-voz label{width:100%}
+  .paso-secuencia{grid-template-columns:auto minmax(0,1fr)}
+  .acciones-orden{grid-column:1/-1;justify-content:flex-end}
+}
+@media(max-width:480px){
+  .contenedor{width:min(100% - 20px,1100px);padding-top:28px}
+  .panel,.explicacion{border-radius:18px}
+  .tarjeta{padding:22px 16px;border-radius:16px}
+  fieldset{padding:14px}
+  .atajos-seccion{display:grid}
+  .atajos-seccion a{justify-content:center}
+  .imagen-guardada{margin-inline:-20px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto !important;animation-duration:.01ms !important;transition-duration:.01ms !important}
+}
