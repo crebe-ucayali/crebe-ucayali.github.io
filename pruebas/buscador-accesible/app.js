@@ -1,191 +1,431 @@
 (() => {
   "use strict";
 
-  const recursos = [
-    { titulo:"Banco Digital del Sistema Braille", tipo:"BDA", categoria:"Braille", descripcion:"Recursos para conocer la celda Braille, letras, números, signos y actividades prácticas.", url:"https://crebe-ucayali.github.io/banco-digital-accesible/" },
-    { titulo:"Banco Digital de Lengua de Señas Peruana", tipo:"BDA", categoria:"Lengua de señas", descripcion:"Vocabulario visual y recursos educativos relacionados con la Lengua de Señas Peruana.", url:"https://crebe-ucayali.github.io/banco-digital-accesible/" },
-    { titulo:"Tarjetas educativas accesibles", tipo:"Prueba", categoria:"Actividad", descripcion:"Demostración de tarjetas con preguntas, respuestas, categorías y navegación mediante teclado.", url:"../tarjetas-educativas/" },
-    { titulo:"Rutinas visuales", tipo:"MEA", categoria:"Pictogramas", descripcion:"Materiales para anticipar actividades, organizar secuencias y apoyar la comprensión cotidiana.", url:"https://crebe-ucayali.github.io/materiales-educativos-accesibles/" },
-    { titulo:"Tarjetas de emociones", tipo:"MEA", categoria:"Emociones", descripcion:"Recursos visuales para reconocer, expresar y conversar sobre diferentes estados emocionales.", url:"https://crebe-ucayali.github.io/materiales-educativos-accesibles/" },
-    { titulo:"Capacitaciones CREBE", tipo:"CAP", categoria:"Capacitación", descripcion:"Talleres, sesiones, materiales formativos y recursos de acompañamiento pedagógico.", url:"https://crebe-ucayali.github.io/capacitaciones/" },
-    { titulo:"Repositorio Accesible", tipo:"RA", categoria:"Documentos", descripcion:"Colección organizada de textos, orientaciones y materiales adaptados para la comunidad educativa.", url:"https://crebe-ucayali.github.io/repositorio-accesible/" },
-    { titulo:"Noti Inclusivos", tipo:"NI", categoria:"Noticias", descripcion:"Noticias, comunicados y novedades vinculadas a la inclusión educativa y la atención a la diversidad.", url:"https://crebe-ucayali.github.io/noti-inclusivos/" },
-    { titulo:"Directorio institucional", tipo:"AC", categoria:"Directorio", descripcion:"Información de contacto y ubicación de servicios e instituciones relacionadas con la atención educativa.", url:"https://crebe-ucayali.github.io/accesos-complementarios/directorios/directorio-institucional.html" },
-    { titulo:"Calendario institucional", tipo:"AC", categoria:"Actividades", descripcion:"Consulta de actividades, capacitaciones y fechas organizadas por el CREBE Ucayali.", url:"https://crebe-ucayali.github.io/accesos-complementarios/recursos/calendario.html" }
-  ];
+  const DATA_URL = "datos/recursos.json?v=1";
+  const MAX_SUGERENCIAS = 7;
 
-  const entrada = document.querySelector("#buscador");
-  const lista = document.querySelector("#lista-sugerencias");
-  const estado = document.querySelector("#estado-buscador");
-  const limpiar = document.querySelector("#limpiar");
-  const detalle = document.querySelector("#detalle-recurso");
-  const botonesRapidos = document.querySelectorAll("[data-consulta]");
+  const elementos = {
+    entrada: document.querySelector("#buscador"),
+    listaSugerencias: document.querySelector("#lista-sugerencias"),
+    estadoBuscador: document.querySelector("#estado-buscador"),
+    estadoCatalogo: document.querySelector("#estado-catalogo"),
+    limpiar: document.querySelector("#limpiar"),
+    filtroModulo: document.querySelector("#filtro-modulo"),
+    filtroCategoria: document.querySelector("#filtro-categoria"),
+    filtroTipo: document.querySelector("#filtro-tipo"),
+    restablecer: document.querySelector("#restablecer-filtros"),
+    contador: document.querySelector("#contador-resultados"),
+    resumen: document.querySelector("#resumen-filtros"),
+    listaResultados: document.querySelector("#lista-resultados"),
+    botonesRapidos: document.querySelectorAll("[data-consulta]")
+  };
 
-  let resultados = [];
+  let recursos = [];
+  let resultadosActuales = [];
+  let sugerencias = [];
   let indiceActivo = -1;
 
-  const normalizar = (texto) => String(texto || "")
+  const normalizar = (texto = "") => String(texto)
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .trim();
 
-  const textoBuscable = (recurso) => normalizar([
-    recurso.titulo,
-    recurso.tipo,
-    recurso.categoria,
-    recurso.descripcion
-  ].join(" "));
+  const etiquetasTexto = (recurso) => Array.isArray(recurso.etiquetas)
+    ? recurso.etiquetas.join(" ")
+    : String(recurso.etiquetas || "");
 
-  const cerrarLista = () => {
-    lista.hidden = true;
-    entrada.setAttribute("aria-expanded", "false");
-    entrada.setAttribute("aria-activedescendant", "");
+  const esRecursoValido = (recurso) => Boolean(
+    recurso &&
+    typeof recurso.id === "string" &&
+    typeof recurso.titulo === "string" &&
+    typeof recurso.modulo === "string" &&
+    typeof recurso.categoria === "string" &&
+    typeof recurso.tipo === "string" &&
+    typeof recurso.descripcion === "string" &&
+    typeof recurso.url === "string"
+  );
+
+  const puntuar = (recurso, consulta) => {
+    if (!consulta) return 1;
+
+    const titulo = normalizar(recurso.titulo);
+    const modulo = normalizar(recurso.modulo);
+    const categoria = normalizar(recurso.categoria);
+    const tipo = normalizar(recurso.tipo);
+    const descripcion = normalizar(recurso.descripcion);
+    const etiquetas = normalizar(etiquetasTexto(recurso));
+    const palabras = consulta.split(/\s+/).filter(Boolean);
+
+    let puntaje = 0;
+    if (titulo === consulta) puntaje += 14;
+    else if (titulo.startsWith(consulta)) puntaje += 10;
+    else if (titulo.includes(consulta)) puntaje += 7;
+
+    if (modulo === consulta) puntaje += 6;
+    if (categoria.includes(consulta)) puntaje += 4;
+    if (tipo.includes(consulta)) puntaje += 3;
+    if (descripcion.includes(consulta)) puntaje += 2;
+    if (etiquetas.includes(consulta)) puntaje += 4;
+
+    palabras.forEach((palabra) => {
+      if (titulo.includes(palabra)) puntaje += 3;
+      if (modulo.includes(palabra)) puntaje += 2;
+      if (categoria.includes(palabra)) puntaje += 2;
+      if (tipo.includes(palabra)) puntaje += 1;
+      if (descripcion.includes(palabra)) puntaje += 1;
+      if (etiquetas.includes(palabra)) puntaje += 2;
+    });
+
+    return puntaje;
+  };
+
+  const cerrarSugerencias = () => {
+    elementos.listaSugerencias.hidden = true;
+    elementos.entrada.setAttribute("aria-expanded", "false");
+    elementos.entrada.setAttribute("aria-activedescendant", "");
     indiceActivo = -1;
   };
 
-  const actualizarActivo = () => {
-    const opciones = Array.from(lista.querySelectorAll("[role=option]"));
+  const actualizarSugerenciaActiva = () => {
+    const opciones = [...elementos.listaSugerencias.querySelectorAll('[role="option"]')];
     opciones.forEach((opcion, indice) => {
-      const activo = indice === indiceActivo;
-      opcion.classList.toggle("activo", activo);
-      opcion.setAttribute("aria-selected", activo ? "true" : "false");
-      if (activo) {
-        entrada.setAttribute("aria-activedescendant", opcion.id);
-        opcion.scrollIntoView({ block:"nearest" });
+      const activa = indice === indiceActivo;
+      opcion.classList.toggle("activo", activa);
+      opcion.setAttribute("aria-selected", activa ? "true" : "false");
+      if (activa) {
+        elementos.entrada.setAttribute("aria-activedescendant", opcion.id);
+        opcion.scrollIntoView({ block: "nearest" });
       }
     });
   };
 
-  const seleccionar = (recurso) => {
-    entrada.value = recurso.titulo;
-    limpiar.hidden = false;
-    cerrarLista();
-    estado.textContent = `Recurso seleccionado: ${recurso.titulo}.`;
-    detalle.innerHTML = `
-      <div class="detalle-meta">
-        <span>${recurso.tipo}</span>
-        <span>${recurso.categoria}</span>
-      </div>
-      <h3>${recurso.titulo}</h3>
-      <p>${recurso.descripcion}</p>
-      <a class="detalle-enlace" href="${recurso.url}" target="_blank" rel="noopener noreferrer">Abrir recurso</a>
-    `;
-    detalle.focus();
+  const crearOpcionFiltro = (valor) => {
+    const opcion = document.createElement("option");
+    opcion.value = valor;
+    opcion.textContent = valor;
+    return opcion;
   };
 
-  const renderizar = () => {
-    lista.innerHTML = "";
+  const poblarFiltro = (select, valores) => {
+    const opcionInicial = select.options[0];
+    select.replaceChildren(opcionInicial);
+    valores.forEach((valor) => select.appendChild(crearOpcionFiltro(valor)));
+  };
 
-    resultados.forEach((recurso, indice) => {
+  const prepararFiltros = () => {
+    const modulos = [...new Set(recursos.map((recurso) => recurso.modulo))].sort((a, b) => a.localeCompare(b, "es"));
+    const categorias = [...new Set(recursos.map((recurso) => recurso.categoria))].sort((a, b) => a.localeCompare(b, "es"));
+    const tipos = [...new Set(recursos.map((recurso) => recurso.tipo))].sort((a, b) => a.localeCompare(b, "es"));
+
+    poblarFiltro(elementos.filtroModulo, modulos);
+    poblarFiltro(elementos.filtroCategoria, categorias);
+    poblarFiltro(elementos.filtroTipo, tipos);
+  };
+
+  const seleccionarSugerencia = (recurso) => {
+    elementos.entrada.value = recurso.titulo;
+    elementos.limpiar.hidden = false;
+    cerrarSugerencias();
+    aplicarBusqueda();
+    elementos.estadoBuscador.textContent = `Recurso seleccionado: ${recurso.titulo}.`;
+    const primerEnlace = elementos.listaResultados.querySelector("a");
+    if (primerEnlace) primerEnlace.focus();
+  };
+
+  const renderizarSugerencias = () => {
+    elementos.listaSugerencias.replaceChildren();
+
+    if (!sugerencias.length) {
+      cerrarSugerencias();
+      return;
+    }
+
+    sugerencias.forEach((recurso, indice) => {
       const item = document.createElement("li");
       const boton = document.createElement("button");
       boton.type = "button";
       boton.id = `sugerencia-${indice}`;
       boton.setAttribute("role", "option");
       boton.setAttribute("aria-selected", "false");
-      boton.innerHTML = `
-        <span class="tipo">${recurso.tipo}</span>
-        <span class="texto-sugerencia">
-          <strong>${recurso.titulo}</strong>
-          <span>${recurso.categoria}</span>
-        </span>
-      `;
+
+      const modulo = document.createElement("span");
+      modulo.className = "tipo";
+      modulo.textContent = recurso.modulo;
+
+      const texto = document.createElement("span");
+      texto.className = "texto-sugerencia";
+
+      const titulo = document.createElement("strong");
+      titulo.textContent = recurso.titulo;
+
+      const detalle = document.createElement("span");
+      detalle.textContent = `${recurso.categoria} · ${recurso.tipo}`;
+
+      texto.append(titulo, detalle);
+      boton.append(modulo, texto);
       boton.addEventListener("mousedown", (evento) => evento.preventDefault());
-      boton.addEventListener("click", () => seleccionar(recurso));
+      boton.addEventListener("click", () => seleccionarSugerencia(recurso));
       item.appendChild(boton);
-      lista.appendChild(item);
+      elementos.listaSugerencias.appendChild(item);
     });
 
-    if (!resultados.length) {
-      cerrarLista();
-      estado.textContent = "No se encontraron recursos relacionados. Pruebe con otra palabra.";
-      return;
-    }
-
-    lista.hidden = false;
-    entrada.setAttribute("aria-expanded", "true");
-    estado.textContent = resultados.length === 1
-      ? "Se encontró 1 sugerencia."
-      : `Se encontraron ${resultados.length} sugerencias.`;
-    actualizarActivo();
+    elementos.listaSugerencias.hidden = false;
+    elementos.entrada.setAttribute("aria-expanded", "true");
+    actualizarSugerenciaActiva();
   };
 
-  const buscar = () => {
-    const consulta = normalizar(entrada.value);
-    limpiar.hidden = !consulta;
+  const actualizarSugerencias = () => {
+    const consulta = normalizar(elementos.entrada.value);
 
     if (!consulta) {
-      resultados = [];
-      cerrarLista();
-      estado.textContent = "Ingrese una palabra para comenzar.";
+      sugerencias = [];
+      cerrarSugerencias();
+      elementos.estadoBuscador.textContent = "Puede escribir una palabra o utilizar los filtros.";
       return;
     }
 
-    const palabras = consulta.split(/\s+/).filter(Boolean);
-    resultados = recursos
-      .map((recurso) => {
-        const texto = textoBuscable(recurso);
-        const coincidencias = palabras.filter((palabra) => texto.includes(palabra)).length;
-        const prioridadTitulo = normalizar(recurso.titulo).includes(consulta) ? 3 : 0;
-        return { recurso, puntaje: coincidencias + prioridadTitulo };
-      })
+    sugerencias = recursos
+      .map((recurso) => ({ recurso, puntaje: puntuar(recurso, consulta) }))
       .filter((resultado) => resultado.puntaje > 0)
-      .sort((a, b) => b.puntaje - a.puntaje || a.recurso.titulo.localeCompare(b.recurso.titulo))
-      .slice(0, 7)
+      .sort((a, b) => b.puntaje - a.puntaje || a.recurso.titulo.localeCompare(b.recurso.titulo, "es"))
+      .slice(0, MAX_SUGERENCIAS)
       .map((resultado) => resultado.recurso);
 
     indiceActivo = -1;
-    renderizar();
+    renderizarSugerencias();
+    elementos.estadoBuscador.textContent = sugerencias.length === 0
+      ? "No se encontraron sugerencias. Revise los resultados o pruebe otra palabra."
+      : `${sugerencias.length} ${sugerencias.length === 1 ? "sugerencia disponible" : "sugerencias disponibles"}.`;
   };
 
-  entrada.addEventListener("input", buscar);
+  const crearResultado = (recurso) => {
+    const articulo = document.createElement("article");
+    articulo.className = "resultado-tarjeta";
+    articulo.dataset.id = recurso.id;
 
-  entrada.addEventListener("keydown", (evento) => {
+    const meta = document.createElement("div");
+    meta.className = "resultado-meta";
+
+    const modulo = document.createElement("span");
+    modulo.textContent = recurso.modulo;
+
+    const tipo = document.createElement("span");
+    tipo.textContent = recurso.tipo;
+
+    meta.append(modulo, tipo);
+
+    const titulo = document.createElement("h3");
+    titulo.textContent = recurso.titulo;
+
+    const categoria = document.createElement("p");
+    categoria.className = "resultado-categoria";
+    categoria.textContent = recurso.categoria;
+
+    const descripcion = document.createElement("p");
+    descripcion.textContent = recurso.descripcion;
+
+    const etiquetas = document.createElement("p");
+    etiquetas.className = "resultado-etiquetas";
+    const listaEtiquetas = Array.isArray(recurso.etiquetas) ? recurso.etiquetas.slice(0, 5) : [];
+    etiquetas.textContent = listaEtiquetas.length ? `Temas: ${listaEtiquetas.join(", ")}` : "";
+
+    const enlace = document.createElement("a");
+    enlace.className = "resultado-enlace";
+    enlace.href = recurso.url;
+    enlace.target = "_blank";
+    enlace.rel = "noopener noreferrer";
+    enlace.textContent = "Abrir recurso";
+    enlace.setAttribute("aria-label", `Abrir ${recurso.titulo}`);
+
+    articulo.append(meta, titulo, categoria, descripcion);
+    if (etiquetas.textContent) articulo.appendChild(etiquetas);
+    articulo.appendChild(enlace);
+
+    return articulo;
+  };
+
+  const descripcionFiltros = () => {
+    const partes = [];
+    const consulta = elementos.entrada.value.trim();
+    if (consulta) partes.push(`búsqueda “${consulta}”`);
+    if (elementos.filtroModulo.value) partes.push(`módulo ${elementos.filtroModulo.value}`);
+    if (elementos.filtroCategoria.value) partes.push(`categoría ${elementos.filtroCategoria.value}`);
+    if (elementos.filtroTipo.value) partes.push(`tipo ${elementos.filtroTipo.value}`);
+    return partes.length ? `Filtros activos: ${partes.join("; ")}.` : "Se muestran todos los recursos del catálogo.";
+  };
+
+  const renderizarResultados = () => {
+    elementos.listaResultados.replaceChildren();
+
+    elementos.contador.textContent = `${resultadosActuales.length} ${resultadosActuales.length === 1 ? "resultado" : "resultados"}`;
+    elementos.resumen.textContent = descripcionFiltros();
+
+    if (!resultadosActuales.length) {
+      const vacio = document.createElement("p");
+      vacio.className = "resultado-vacio";
+      vacio.textContent = "No se encontraron recursos con la búsqueda y los filtros seleccionados.";
+      elementos.listaResultados.appendChild(vacio);
+      return;
+    }
+
+    resultadosActuales.forEach((recurso) => {
+      elementos.listaResultados.appendChild(crearResultado(recurso));
+    });
+  };
+
+  const aplicarBusqueda = () => {
+    const consulta = normalizar(elementos.entrada.value);
+    const modulo = elementos.filtroModulo.value;
+    const categoria = elementos.filtroCategoria.value;
+    const tipo = elementos.filtroTipo.value;
+
+    elementos.limpiar.hidden = !consulta;
+
+    resultadosActuales = recursos
+      .filter((recurso) => !modulo || recurso.modulo === modulo)
+      .filter((recurso) => !categoria || recurso.categoria === categoria)
+      .filter((recurso) => !tipo || recurso.tipo === tipo)
+      .map((recurso) => ({ recurso, puntaje: puntuar(recurso, consulta) }))
+      .filter((resultado) => !consulta || resultado.puntaje > 0)
+      .sort((a, b) => {
+        if (consulta && b.puntaje !== a.puntaje) return b.puntaje - a.puntaje;
+        return a.recurso.titulo.localeCompare(b.recurso.titulo, "es");
+      })
+      .map((resultado) => resultado.recurso);
+
+    renderizarResultados();
+  };
+
+  const habilitarInterfaz = () => {
+    [
+      elementos.entrada,
+      elementos.filtroModulo,
+      elementos.filtroCategoria,
+      elementos.filtroTipo,
+      elementos.restablecer
+    ].forEach((elemento) => {
+      elemento.disabled = false;
+    });
+  };
+
+  const mostrarErrorCarga = () => {
+    elementos.estadoCatalogo.textContent = "No se pudo cargar el catálogo.";
+    elementos.estadoCatalogo.classList.add("error");
+    elementos.estadoBuscador.textContent = "Revise su conexión o recargue la página.";
+    elementos.contador.textContent = "Error de carga";
+    elementos.listaResultados.replaceChildren();
+    const error = document.createElement("p");
+    error.className = "resultado-vacio";
+    error.textContent = "El archivo de recursos no está disponible en este momento.";
+    elementos.listaResultados.appendChild(error);
+  };
+
+  const cargarCatalogo = async () => {
+    try {
+      const respuesta = await fetch(DATA_URL, { cache: "no-store" });
+      if (!respuesta.ok) throw new Error(`HTTP ${respuesta.status}`);
+
+      const datos = await respuesta.json();
+      if (!Array.isArray(datos)) throw new Error("Formato de catálogo inválido");
+
+      recursos = datos.filter(esRecursoValido);
+      if (!recursos.length) throw new Error("Catálogo vacío");
+
+      prepararFiltros();
+      habilitarInterfaz();
+      aplicarBusqueda();
+
+      elementos.estadoCatalogo.classList.remove("error");
+      elementos.estadoCatalogo.textContent = `${recursos.length} recursos cargados`;
+      elementos.estadoBuscador.textContent = "Puede escribir una palabra o utilizar los filtros.";
+    } catch (error) {
+      console.error("No se pudo cargar el catálogo de EVA:", error);
+      mostrarErrorCarga();
+    }
+  };
+
+  elementos.entrada.addEventListener("input", () => {
+    actualizarSugerencias();
+    aplicarBusqueda();
+  });
+
+  elementos.entrada.addEventListener("keydown", (evento) => {
     if (evento.key === "ArrowDown") {
       evento.preventDefault();
-      if (lista.hidden) buscar();
-      if (!resultados.length) return;
-      indiceActivo = (indiceActivo + 1) % resultados.length;
-      actualizarActivo();
+      if (elementos.listaSugerencias.hidden) actualizarSugerencias();
+      if (!sugerencias.length) return;
+      indiceActivo = (indiceActivo + 1) % sugerencias.length;
+      actualizarSugerenciaActiva();
     }
 
     if (evento.key === "ArrowUp") {
       evento.preventDefault();
-      if (!resultados.length) return;
-      indiceActivo = indiceActivo <= 0 ? resultados.length - 1 : indiceActivo - 1;
-      actualizarActivo();
+      if (!sugerencias.length) return;
+      indiceActivo = indiceActivo <= 0 ? sugerencias.length - 1 : indiceActivo - 1;
+      actualizarSugerenciaActiva();
     }
 
-    if (evento.key === "Enter" && indiceActivo >= 0 && resultados[indiceActivo]) {
-      evento.preventDefault();
-      seleccionar(resultados[indiceActivo]);
+    if (evento.key === "Enter") {
+      if (indiceActivo >= 0 && sugerencias[indiceActivo]) {
+        evento.preventDefault();
+        seleccionarSugerencia(sugerencias[indiceActivo]);
+      } else {
+        cerrarSugerencias();
+        aplicarBusqueda();
+      }
     }
 
     if (evento.key === "Escape") {
-      cerrarLista();
-      estado.textContent = "Lista de sugerencias cerrada.";
+      cerrarSugerencias();
+      elementos.estadoBuscador.textContent = "Lista de sugerencias cerrada.";
     }
   });
 
-  limpiar.addEventListener("click", () => {
-    entrada.value = "";
-    limpiar.hidden = true;
-    cerrarLista();
-    estado.textContent = "Búsqueda restablecida.";
-    detalle.innerHTML = '<p class="detalle-vacio">Todavía no seleccionó ningún recurso.</p>';
-    entrada.focus();
+  elementos.limpiar.addEventListener("click", () => {
+    elementos.entrada.value = "";
+    elementos.limpiar.hidden = true;
+    cerrarSugerencias();
+    aplicarBusqueda();
+    elementos.estadoBuscador.textContent = "Búsqueda restablecida.";
+    elementos.entrada.focus();
   });
 
-  botonesRapidos.forEach((boton) => {
+  [
+    elementos.filtroModulo,
+    elementos.filtroCategoria,
+    elementos.filtroTipo
+  ].forEach((select) => {
+    select.addEventListener("change", () => {
+      cerrarSugerencias();
+      aplicarBusqueda();
+    });
+  });
+
+  elementos.restablecer.addEventListener("click", () => {
+    elementos.entrada.value = "";
+    elementos.filtroModulo.value = "";
+    elementos.filtroCategoria.value = "";
+    elementos.filtroTipo.value = "";
+    elementos.limpiar.hidden = true;
+    cerrarSugerencias();
+    aplicarBusqueda();
+    elementos.estadoBuscador.textContent = "Búsqueda y filtros restablecidos.";
+    elementos.entrada.focus();
+  });
+
+  elementos.botonesRapidos.forEach((boton) => {
     boton.addEventListener("click", () => {
-      entrada.value = boton.dataset.consulta || "";
-      buscar();
-      entrada.focus();
+      elementos.entrada.value = boton.dataset.consulta || "";
+      actualizarSugerencias();
+      aplicarBusqueda();
+      elementos.entrada.focus();
     });
   });
 
   document.addEventListener("click", (evento) => {
-    if (!evento.target.closest(".campo-autocompletado")) cerrarLista();
+    if (!evento.target.closest(".campo-autocompletado")) cerrarSugerencias();
   });
+
+  cargarCatalogo();
 })();
