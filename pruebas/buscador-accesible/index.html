@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buscador accesible de recursos | EVA</title>
+  <meta name="description" content="Demostración de buscador accesible con autocompletado para EVA.">
+  <link rel="stylesheet" href="estilos.css?v=1">
+</head>
+<body>
+  <a class="saltar" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <header class="cabecera">
+    <div class="cabecera-interior">
+      <a class="marca" href="../../">
+        <strong>EVA</strong>
+        <span>Ecosistema Virtual Accesible</span>
+      </a>
+      <a class="volver" href="../../">Volver a INICIO</a>
+    </div>
+  </header>
+
+  <main id="contenido-principal" class="contenedor">
+    <section class="presentacion" aria-labelledby="titulo-pagina">
+      <p class="etiqueta">Ruta experimental</p>
+      <h1 id="titulo-pagina">Buscador accesible con autocompletado</h1>
+      <p>
+        Escriba una palabra para recibir sugerencias de módulos, materiales y recursos de EVA.
+        Puede usar el teclado, el mouse o una pantalla táctil.
+      </p>
+    </section>
+
+    <section class="panel-busqueda" aria-labelledby="titulo-buscador">
+      <h2 id="titulo-buscador">Buscar dentro del ecosistema</h2>
+
+      <div class="campo-autocompletado">
+        <label for="buscador">Recurso, módulo o tema</label>
+        <div class="entrada-con-boton">
+          <input
+            id="buscador"
+            type="search"
+            autocomplete="off"
+            placeholder="Ejemplo: braille, emociones, capacitación"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded="false"
+            aria-controls="lista-sugerencias"
+            aria-activedescendant=""
+            aria-describedby="ayuda-buscador estado-buscador"
+          >
+          <button id="limpiar" type="button" hidden>Limpiar</button>
+        </div>
+
+        <p id="ayuda-buscador" class="ayuda-campo">
+          Use las flechas arriba y abajo para recorrer sugerencias, Enter para abrir y Escape para cerrar.
+        </p>
+
+        <ul id="lista-sugerencias" class="lista-sugerencias" role="listbox" hidden></ul>
+        <p id="estado-buscador" class="estado" role="status" aria-live="polite">Ingrese una palabra para comenzar.</p>
+      </div>
+
+      <div class="sugerencias-rapidas" aria-label="Búsquedas sugeridas">
+        <span>Pruebe con:</span>
+        <button type="button" data-consulta="braille">Braille</button>
+        <button type="button" data-consulta="lengua de señas">Lengua de señas</button>
+        <button type="button" data-consulta="emociones">Emociones</button>
+        <button type="button" data-consulta="capacitación">Capacitación</button>
+      </div>
+    </section>
+
+    <section class="resultados" aria-labelledby="titulo-resultados">
+      <div class="resultados-encabezado">
+        <h2 id="titulo-resultados">Resultado seleccionado</h2>
+        <p>Al elegir una sugerencia, aquí se muestra una ficha explicativa.</p>
+      </div>
+
+      <article id="detalle-recurso" class="detalle-recurso" tabindex="-1">
+        <p class="detalle-vacio">Todavía no seleccionó ningún recurso.</p>
+      </article>
+    </section>
+
+    <section class="explicacion" aria-labelledby="titulo-aplicacion">
+      <h2 id="titulo-aplicacion">¿Cómo podría aplicarse en EVA?</h2>
+      <div class="usos">
+        <article>
+          <h3>Buscador general</h3>
+          <p>Localizar módulos, páginas, noticias, materiales y herramientas desde INICIO.</p>
+        </article>
+        <article>
+          <h3>BDA y MEA</h3>
+          <p>Encontrar letras Braille, videos LSP, pictogramas, rutinas y materiales educativos.</p>
+        </article>
+        <article>
+          <h3>RA y CAP</h3>
+          <p>Buscar documentos, sesiones, capacitaciones y recursos descargables por tema.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Demostración experimental de EVA. No forma parte todavía del buscador oficial.</p>
+  </footer>
+
+  <script src="app.js?v=1"></script>
+  <script src="https://crebe-ucayali.github.io/accesos-complementarios/accesibilidad/accesibilidad.js?v=10"></script>
+</body>
+</html>
