@@ -3,190 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Buscador accesible de recursos | EVA</title>
-  <meta name="description" content="Buscador accesible con catálogo, sinónimos, historial, favoritos y filtros para localizar recursos de EVA.">
-  <link rel="stylesheet" href="estilos.css?v=3">
+  <title>Buscador trasladado | EVA</title>
+  <meta name="robots" content="noindex">
+  <style>
+    body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;font-family:Arial,Helvetica,sans-serif;color:#102a43;background:#eef7f5;line-height:1.6}
+    main{max-width:680px;padding:32px;border:2px solid #0f766e;border-radius:20px;background:#fff;text-align:center;box-shadow:0 18px 48px rgba(16,42,67,.12)}
+    a{display:inline-block;margin-top:12px;padding:11px 18px;border-radius:12px;background:#0f766e;color:#fff;font-weight:800}
+  </style>
+  <script>
+    (() => {
+      const destino = new URL("/buscar/", window.location.origin);
+      destino.search = window.location.search;
+      destino.hash = window.location.hash;
+      window.location.replace(destino.href);
+    })();
+  </script>
 </head>
 <body>
-  <a class="saltar" href="#contenido-principal">Saltar al contenido principal</a>
-
-  <header class="cabecera">
-    <div class="cabecera-interior">
-      <a class="marca" href="../../">
-        <strong>EVA</strong>
-        <span>Ecosistema Virtual Accesible</span>
-      </a>
-      <a class="volver" href="../../">Volver a INICIO</a>
-    </div>
-  </header>
-
-  <main id="contenido-principal" class="contenedor">
-    <section class="presentacion" aria-labelledby="titulo-pagina">
-      <p class="etiqueta">Ruta experimental · Fase 2</p>
-      <h1 id="titulo-pagina">Buscador accesible de recursos</h1>
-      <p>
-        Localice recursos aunque utilice términos equivalentes o cometa errores sencillos de escritura.
-        Guarde favoritos, recupere búsquedas recientes y comparta resultados mediante un enlace.
-      </p>
-    </section>
-
-    <section class="panel-busqueda" aria-labelledby="titulo-buscador">
-      <div class="encabezado-seccion">
-        <div>
-          <p class="etiqueta-seccion">Catálogo central</p>
-          <h2 id="titulo-buscador">Buscar dentro del ecosistema</h2>
-        </div>
-        <p id="estado-catalogo" class="estado-catalogo" role="status" aria-live="polite">
-          Cargando catálogo de recursos…
-        </p>
-      </div>
-
-      <div class="campo-autocompletado">
-        <label for="buscador">Recurso, módulo o tema</label>
-        <div class="entrada-con-boton">
-          <input
-            id="buscador"
-            type="search"
-            autocomplete="off"
-            placeholder="Ejemplo: braile, LSP, pictogramas, capacitación"
-            role="combobox"
-            aria-autocomplete="list"
-            aria-expanded="false"
-            aria-controls="lista-sugerencias"
-            aria-activedescendant=""
-            aria-describedby="ayuda-buscador estado-buscador estado-correccion"
-            disabled
-          >
-          <button id="limpiar" type="button" hidden>Limpiar búsqueda</button>
-        </div>
-
-        <p id="ayuda-buscador" class="ayuda-campo">
-          Use las flechas para recorrer sugerencias, Enter para buscar y Escape para cerrar la lista.
-        </p>
-        <ul id="lista-sugerencias" class="lista-sugerencias" role="listbox" hidden></ul>
-        <p id="estado-buscador" class="estado" role="status" aria-live="polite">
-          Espere mientras se carga el catálogo.
-        </p>
-        <p id="estado-correccion" class="estado-correccion" role="status" aria-live="polite" hidden></p>
-      </div>
-
-      <div class="sugerencias-rapidas" aria-label="Búsquedas sugeridas">
-        <span>Pruebe con:</span>
-        <button type="button" data-consulta="braille">Braille</button>
-        <button type="button" data-consulta="lengua de señas">Lengua de señas</button>
-        <button type="button" data-consulta="emociones">Emociones</button>
-        <button type="button" data-consulta="capacitación">Capacitación</button>
-      </div>
-
-      <fieldset class="filtros">
-        <legend>Filtrar resultados</legend>
-        <div class="filtros-cuadricula">
-          <label>
-            Módulo
-            <select id="filtro-modulo" disabled>
-              <option value="">Todos los módulos</option>
-            </select>
-          </label>
-
-          <label>
-            Categoría
-            <select id="filtro-categoria" disabled>
-              <option value="">Todas las categorías</option>
-            </select>
-          </label>
-
-          <label>
-            Tipo de recurso
-            <select id="filtro-tipo" disabled>
-              <option value="">Todos los tipos</option>
-            </select>
-          </label>
-
-          <label class="casilla-filtro">
-            <input id="solo-favoritos" type="checkbox" disabled>
-            Mostrar solo favoritos
-          </label>
-
-          <button id="restablecer-filtros" type="button" disabled>Restablecer filtros</button>
-        </div>
-      </fieldset>
-
-      <div class="acciones-busqueda">
-        <button id="compartir-busqueda" type="button" class="principal" disabled>Copiar enlace de búsqueda</button>
-        <p id="estado-compartir" class="estado" role="status" aria-live="polite"></p>
-      </div>
-    </section>
-
-    <section class="panel-personal" aria-labelledby="titulo-personalizacion">
-      <div class="encabezado-seccion">
-        <div>
-          <p class="etiqueta-seccion">En este dispositivo</p>
-          <h2 id="titulo-personalizacion">Historial y favoritos</h2>
-        </div>
-        <p id="contador-favoritos" class="estado-catalogo" aria-live="polite">0 favoritos</p>
-      </div>
-
-      <div class="personal-cuadricula">
-        <article class="bloque-personal">
-          <div class="bloque-personal-encabezado">
-            <h3>Búsquedas recientes</h3>
-            <button id="borrar-historial" type="button" class="secundario" disabled>Borrar historial</button>
-          </div>
-          <p class="ayuda-breve">Se conservan hasta ocho búsquedas en este navegador.</p>
-          <div id="historial-busquedas" class="historial-busquedas" aria-label="Búsquedas recientes">
-            <p class="vacio-pequeno">Todavía no hay búsquedas recientes.</p>
-          </div>
-        </article>
-
-        <article class="bloque-personal">
-          <h3>Recursos favoritos</h3>
-          <p class="ayuda-breve">
-            Use el botón de estrella en cada resultado. Sus favoritos permanecerán guardados en este dispositivo.
-          </p>
-          <button id="ver-favoritos" type="button" disabled>Ver mis favoritos</button>
-        </article>
-      </div>
-    </section>
-
-    <section class="resultados" aria-labelledby="titulo-resultados">
-      <div class="resultados-encabezado">
-        <div>
-          <p class="etiqueta-seccion">Resultados</p>
-          <h2 id="titulo-resultados">Recursos encontrados</h2>
-        </div>
-        <p id="contador-resultados" class="contador-resultados" aria-live="polite">Cargando…</p>
-      </div>
-
-      <p id="resumen-filtros" class="resumen-filtros">Todavía no se aplicaron filtros.</p>
-      <div id="lista-resultados" class="lista-resultados" aria-label="Resultados de búsqueda">
-        <p class="resultado-vacio">Cargando recursos del catálogo…</p>
-      </div>
-    </section>
-
-    <section class="explicacion" aria-labelledby="titulo-fases">
-      <h2 id="titulo-fases">Desarrollo gradual del buscador</h2>
-      <div class="usos">
-        <article class="fase-completa">
-          <h3>Fase 1 · Completada</h3>
-          <p>Catálogo JSON, resultados completos, filtros por módulo, categoría y tipo, además de estados de carga y error.</p>
-        </article>
-        <article class="fase-actual">
-          <h3>Fase 2 · Activa</h3>
-          <p>Sinónimos, tolerancia a errores, historial local, favoritos y direcciones de búsqueda compartibles.</p>
-        </article>
-        <article>
-          <h3>Fase 3 · Pendiente</h3>
-          <p>Catálogos distribuidos por módulo e integración definitiva del buscador en la página principal de EVA.</p>
-        </article>
-      </div>
-    </section>
+  <main>
+    <h1>El buscador tiene una nueva ruta</h1>
+    <p>La herramienta fue trasladada a su ubicación definitiva. La búsqueda y los filtros del enlace se conservarán.</p>
+    <a id="enlace-destino" href="../../buscar/">Ir al buscador de EVA</a>
   </main>
-
-  <footer>
-    <p>Herramienta experimental de EVA. El historial y los favoritos se almacenan solamente en este navegador.</p>
-  </footer>
-
-  <script src="app.js?v=3"></script>
-  <script src="https://crebe-ucayali.github.io/accesos-complementarios/accesibilidad/accesibilidad.js?v=10"></script>
+  <script>
+    const enlace = document.querySelector("#enlace-destino");
+    const destino = new URL("/buscar/", window.location.origin);
+    destino.search = window.location.search;
+    destino.hash = window.location.hash;
+    enlace.href = destino.href;
+  </script>
 </body>
 </html>
